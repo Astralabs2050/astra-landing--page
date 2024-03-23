@@ -22,7 +22,13 @@ import social1 from "./social1.png";
 import social2 from "./social2.png";
 import social3 from "./social3.png";
 import ASTRANEWLOGO from "./ASTRA NEW LOGO.png";
-
+import BACKGROUNDBLACK1 from "./BACKGROUND-BLACK1.png";
+import BACKGROUNDBLACK2 from "./BACKGROUND-BLACK2.png";
+import BACKGROUNDBLACK3 from "./BACKGROUND-BLACK3.png";
+import BACKGROUNDBLACK4 from "./BACKGROUND-BLACK4.png";
+import BACKGROUNDBLACK5 from "./BACKGROUND-BLACK5.png";
+import BACKGROUNDBLACK6 from "./BACKGROUND-BLACK6.png";
+import BACKGROUNDBLACK7 from "./BACKGROUND-BLACK7.png";
 
 export {
   girl1,
@@ -38,6 +44,13 @@ export {
   girl9,
   Boy1,
   Boy2,
+  BACKGROUNDBLACK1,
+  BACKGROUNDBLACK2,
+  BACKGROUNDBLACK3,
+  BACKGROUNDBLACK4,
+  BACKGROUNDBLACK5,
+  BACKGROUNDBLACK6,
+  BACKGROUNDBLACK7,
   Frame1,
   Frame2,
   Frame3,

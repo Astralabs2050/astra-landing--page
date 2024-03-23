@@ -16,9 +16,9 @@ import {
   Boy2,
   ASTRANEWLOGO,
 } from "../../assets";
+import { BACKGROUNDBLACK1 } from "../../assets";
 
 import { BringyourFashionIdeastoLife } from "../../assets/text-image";
-
 
 const Layout = () => {
   useEffect(() => {
@@ -29,8 +29,7 @@ const Layout = () => {
   }, []);
   return (
     <div
-      className={`flex lg:gap-4 gap-[18px] text-white pt-[50px] lg:pt-[100px] w-[100%] justify-center px-[20px] bg-[url('/Users/ijeoma/Documents/astra-landing-page/public/bgImage/BACKGROUND-BLACK1.png')] bg-cover  overflow-auto lg:px-[40px]  pb-[50px] lg:pb-[300px]`}
-    
+      className={`flex lg:gap-4 gap-[18px] text-white pt-[50px] lg:pt-[100px] w-[100%] justify-center px-[20px] bg-[url(${BACKGROUNDBLACK1})] bg-cover  overflow-auto lg:px-[40px]  pb-[50px] lg:pb-[300px]`}
     >
       <div
         data-aos="fade-left"
