@@ -43,7 +43,7 @@ const Layout3 = () => {
           <td className="border border-[#FFFFFF26] py-10"></td>
         </tr>
       </table>
-      <div className="z-[9999] flex flex-col-reverse lg:flex-row lg:mx-auto lg:items-center gap-[30px] lg:gap-[130px] bg-[url('/Users/ijeoma/Documents/astra-landing-page/public/bgImage/BACKGROUND-BLACK3.png')] bg-cover lg:pt-[200px] pt-[120px] lg:pb-[250px] text-white w-[100%]">
+      <div id="bg3" className="z-[9999] flex flex-col-reverse lg:flex-row lg:mx-auto lg:items-center gap-[30px] lg:gap-[130px] lg:pt-[200px] pt-[120px] lg:pb-[250px] text-white w-[100%]">
         <p className="font-[700] z-[20] lg:text-[200px] text-[100px] items-center w-[75px] h-[134px] text-[#FFFFFF26] lg:top-[-270px] bottom-[595px] left-[20px] lg:left-[795px] relative">
           2
         </p>

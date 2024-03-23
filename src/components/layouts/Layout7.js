@@ -14,7 +14,7 @@ import {
   image8,
   image9,
 } from "../../assets/logo";
-import { BACKGROUNDBLACK1 } from "../../assets";
+
 
 
 const Layout7 = () => {
@@ -26,7 +26,8 @@ const Layout7 = () => {
   }, []);
   return (
     <div
-      className={`pt-[100px] lg:pb-[150px] pb-[80px] bg-[url(${BACKGROUNDBLACK1})] lg:bg-cover bg-contain flex flex-col justify-center items-center text-white`}
+    id="bg1"
+      className={`pt-[100px] lg:pb-[150px] pb-[80px] bg-contain flex flex-col justify-center items-center text-white`}
     >
       <div
         data-aos="fade-left"

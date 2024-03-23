@@ -37,7 +37,7 @@ const Layout8 = () => {
 
   return (
     <>
-      <div className="bg-[url('/Users/ijeoma/Documents/astra-landing-page/public/bgImage/BACKGROUND-BLACK7.png')] bg-cover  bg-black opacity-95 text-white flex lg:flex-row flex-col lg:justify-evenly gap-[50px] lg:items-center mt-[] pl-[20px] lg:h-[267px] py-[40px]">
+      <div id="bg7" className="bg-black opacity-95 text-white flex lg:flex-row flex-col lg:justify-evenly gap-[50px] lg:items-center mt-[] pl-[20px] lg:h-[267px] py-[40px]">
         <div data-aos="fade-left" className="flex flex-col gap-[50px]">
           <img src={ASTRANEWLOGO} alt="" className="w-[180px]" />
           <div className="text-[15px] hidden lg:flex lg:flex-col font-[100] text-[#A1A1A1]">

@@ -23,7 +23,7 @@ const Layout2 = () => {
     });
   }, []);
   return (
-    <div className="lg:pb-[200px] pb-[90px] bg-[url('/Users/ijeoma/Documents/astra-landing-page/public/bgImage/BACKGROUND-BLACK2.png')] bg-cover text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]">
+    <div id="bg2" className="lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]">
       <p className="lg:text-[35px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
         {" "}
         building a operating system for phygital fashion design, sales and

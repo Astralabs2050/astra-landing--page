@@ -16,7 +16,7 @@ import {
   Boy2,
   ASTRANEWLOGO,
 } from "../../assets";
-import { BACKGROUNDBLACK1 } from "../../assets";
+
 
 import { BringyourFashionIdeastoLife } from "../../assets/text-image";
 
@@ -28,8 +28,8 @@ const Layout = () => {
     });
   }, []);
   return (
-    <div
-      className={`flex lg:gap-4 gap-[18px] text-white pt-[50px] lg:pt-[100px] w-[100%] justify-center px-[20px] bg-[url(${BACKGROUNDBLACK1})] bg-cover  overflow-auto lg:px-[40px]  pb-[50px] lg:pb-[300px]`}
+    <div id="bg1"
+      className={`flex lg:gap-4 gap-[18px] text-white pt-[50px] lg:pt-[100px] w-[100%] justify-center px-[20px]  overflow-auto lg:px-[40px]  pb-[50px] lg:pb-[300px]`}
     >
       <div
         data-aos="fade-left"
