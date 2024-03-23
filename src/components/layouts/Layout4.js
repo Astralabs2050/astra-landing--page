@@ -53,7 +53,7 @@ const Layout4 = () => {
         </tr>
       </table>
 
-      <div className="lg:pb-[120px] pb-[50px] bg-[url('/Users/ijeoma/Documents/astra-landing-page/src/assets/BACKGROUND-BLACK4.png')] bg-cover text-white w-[100%] flex flex-col lg:justify-center lg:items-center lg:pt-[30px]">
+      <div className="lg:pb-[120px] pb-[50px] bg-[url('/Users/ijeoma/Documents/astra-landing-page/public/bgImage/BACKGROUND-BLACK4.png')] bg-cover text-white w-[100%] flex flex-col lg:justify-center lg:items-center lg:pt-[30px]">
         <p className="font-[700] z-[999] lg:text-[200px] text-[100px] lg:items-center w-[75px] h-[134px] text-[#FFFFFF26] lg:top-[-55px] top-[40px] left-[25px] lg:left-[-530px] relative">
           3
         </p>

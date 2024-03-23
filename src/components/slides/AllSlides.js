@@ -46,7 +46,7 @@ const AllSlides = () => {
   return (
     <div
       data-aos="fade-left"
-      className="bg-[url('/Users/ijeoma/Documents/astra-landing-page/src/assets/BACKGROUND-BLACK2.png')] lg:bg-cover bg-contain flex flex-col items-center justify-center text-white py-[50px] lg:py-[100px]"
+      className="bg-[url('/Users/ijeoma/Documents/astra-landing-page/public/bgImage/BACKGROUND-BLACK2.png')] lg:bg-cover bg-contain flex flex-col items-center justify-center text-white py-[50px] lg:py-[100px]"
     >
       <p className="w-[162px] lg:w-[263px] mb-[30px]">
         <img src={pastwork} alt="Past" />

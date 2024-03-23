@@ -25,7 +25,7 @@ const Layout7 = () => {
   }, []);
   return (
     <div
-      className={`pt-[100px] lg:pb-[150px] pb-[80px] bg-[url('/Users/ijeoma/Documents/astra-landing-page/src/assets/BACKGROUND-BLACK1.png')] lg:bg-cover bg-contain flex flex-col justify-center items-center text-white`}
+      className={`pt-[100px] lg:pb-[150px] pb-[80px] bg-[url('/Users/ijeoma/Documents/astra-landing-page/public/bgImage/BACKGROUND-BLACK1.png')] lg:bg-cover bg-contain flex flex-col justify-center items-center text-white`}
     >
       <div
         data-aos="fade-left"
