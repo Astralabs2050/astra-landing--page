@@ -14,6 +14,7 @@ import {
   girl9,
   Boy1,
   Boy2,
+  Glitter,
   ASTRANEWLOGO,
 } from "../../assets";
 
@@ -41,7 +42,7 @@ const Layout = () => {
         <p className="text-left flex lg:leading-[108px] text-[32px] lg:text-[75px] font-[tan-waverly,'serif']">
           <img src={BringyourFashionIdeastoLife} alt="" />
           <img
-            src="src/assets/Glitter.png"
+            src={Glitter}
             alt="glitter"
             className="relative lg:top-[230px] top-[89px] w-[25px] h-[35px] lg:w-[79px] lg:h-[75px]"
           />
