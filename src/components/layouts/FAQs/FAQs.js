@@ -36,11 +36,11 @@ const FAQs = () => {
     <>
       <div
         onClick={toggleOpen}
-        className="absolute flex flex-col items-center gap-[10px] top-[6750px] lg:top-[7600px] left-[300px] lg:left-[60px] border p-[10px]  text-white transition duration-700 ease-in-out"
+        className="absolute flex flex-col items-center gap-[10px] top-[6750px] lg:top-[7750px]  lg:left-[60px] left-[320px] lg:p-[10px]  text-white transition duration-700 ease-in-out"
       >
         <p
           onClick={toggleOpen}
-          className=" border p-[10px] rounded-[100%] text-white transition duration-700 ease-in-out"
+          className=" border lg:p-[10px] p-[5px] rounded-[100%] text-[10px] text-white transition duration-700 ease-in-out"
         >
           FAQs
         </p>

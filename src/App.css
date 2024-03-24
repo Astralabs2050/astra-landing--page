@@ -1,3 +1,8 @@
+*{
+    max-width: 100%;
+
+}
+
 #bg1{
     background-image: url('../src/assets/BACKGROUND-BLACK1.png');
     background-size: cover;
