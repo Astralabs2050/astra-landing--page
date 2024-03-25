@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -53,8 +52,11 @@ const Layout4 = () => {
         </tr>
       </table>
 
-      <div id="bg4" className="lg:pb-[120px] pb-[50px]  text-white w-[100%] flex flex-col lg:justify-center lg:items-center lg:pt-[30px]">
-        <p className="font-[700] z-[999] lg:text-[200px] text-[100px] lg:items-center w-[75px] h-[134px] text-[#FFFFFF26] lg:top-[-55px] top-[40px] left-[25px] lg:left-[-530px] relative">
+      <div
+        id="bg4"
+        className="lg:pb-[120px] pb-[50px]  text-white w-[100%] flex flex-col lg:justify-center lg:items-center lg:pt-[30px]"
+      >
+        <p className="font-[700] z-[999] lg:text-[200px] text-[100px] lg:items-center w-[75px] lg:h-[134px] text-[#FFFFFF26] lg:top-[-55px] top-[40px] left-[25px] lg:left-[-530px] relative">
           3
         </p>
 

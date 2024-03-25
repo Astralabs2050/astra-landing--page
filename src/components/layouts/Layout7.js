@@ -15,8 +15,6 @@ import {
   image9,
 } from "../../assets/logo";
 
-
-
 const Layout7 = () => {
   useEffect(() => {
     AOS.init({
@@ -26,7 +24,7 @@ const Layout7 = () => {
   }, []);
   return (
     <div
-    id="bg1"
+      id="bg1"
       className={`pt-[100px] lg:pb-[150px] pb-[80px] bg-contain flex flex-col justify-center items-center text-white`}
     >
       <div
@@ -45,7 +43,7 @@ const Layout7 = () => {
         </button>
       </div>
 
-      <p className="lg:w-[292px] w-[193px] font-[400] lg:mt-[150px] mt-[70px] lg:mb-[50px] mb-[20px] justify-center flex">
+      <p className="lg:w-[292px] w-[193px] font-[400] lg:mt-[150px] mt-[70px] lg:mb-[50px] mb-[50px] justify-center flex">
         <img src={AsSeenOn} alt="as seen" />
       </p>
       <div

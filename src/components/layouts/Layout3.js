@@ -43,7 +43,10 @@ const Layout3 = () => {
           <td className="border border-[#FFFFFF26] py-10"></td>
         </tr>
       </table>
-      <div id="bg3" className="z-[9999] flex flex-col-reverse lg:flex-row lg:mx-auto lg:items-center gap-[30px] lg:gap-[130px] lg:pt-[200px] pt-[120px] lg:pb-[250px] text-white w-[100%]">
+      <div
+        id="bg3"
+        className="z-[9999] flex flex-col-reverse lg:flex-row lg:mx-auto lg:items-center justify-center gap-[30px] lg:gap-[130px] lg:pt-[200px] pt-[120px] lg:pb-[250px] pb-0 text-white w-[100%]"
+      >
         <p className="font-[700] z-[20] lg:text-[200px] text-[100px] items-center w-[75px] h-[134px] text-[#FFFFFF26] lg:top-[-270px] bottom-[595px] left-[20px] lg:left-[795px] relative">
           2
         </p>
@@ -56,13 +59,10 @@ const Layout3 = () => {
         </div>
         <div
           data-aos="fade-right"
-          className="lg:w-[60%] w-[80%] lg:pr-[70px] z-[9999] pl-[20px] flex flex-col gap-[20px]"
+          className="lg:w-[60%] w-[80%] lg:pr-[70px] pl-[20px] z-[9999] flex flex-col gap-[20px]"
         >
           <p className="lg:text-[50px] text-[30px]">
-            <img
-              src={CreateAjob}
-              alt="text"
-            />
+            <img src={CreateAjob} alt="text" />
           </p>
           <p className="lg:text-[20px] text-[15px] font-[100]">
             Enhance your design by co creating with a 3D or physical maker

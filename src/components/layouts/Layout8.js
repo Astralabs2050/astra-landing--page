@@ -39,7 +39,7 @@ const Layout8 = () => {
     <>
       <div
         id="bg7"
-        className="bg-black w-[100%] opacity-95 text-white flex lg:flex-row flex-col lg:justify-evenly gap-[50px] lg:items-center mt-[] pl-[20px] lg:h-[267px] py-[40px]"
+        className="bg-black w-[100%] opacity-95 text-white flex lg:flex-row flex-col lg:justify-evenly gap-[50px] lg:items-center px-[20px] lg:h-[267px] py-[40px]"
       >
         <div data-aos="fade-left" className="flex flex-col gap-[50px]">
           <img src={ASTRANEWLOGO} alt="" className="w-[180px]" />

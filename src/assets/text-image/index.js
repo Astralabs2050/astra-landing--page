@@ -8,6 +8,7 @@ import Listdesignforsale from "./List design for sale and ship to buyers after p
 import pastwork from "./pastwork.png";
 import pitchdeck from "./pitchdeck.png";
 import UseGenerativeAI from "./Use Generative AI to create unique fashion designs.png";
+import UseGenerativeAItocreate2 from './UseGenerativeAItocreate2.png'
 
 export {
   AsSeenOn,
@@ -20,4 +21,5 @@ export {
   pastwork,
   pitchdeck,
   UseGenerativeAI,
+  UseGenerativeAItocreate2
 };

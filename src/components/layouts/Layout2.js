@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 
 import AOS from "aos";
@@ -12,8 +11,11 @@ import {
   TechNationLogo,
 } from "../../assets/logo/index";
 import { social1 } from "../../assets";
-import { UseGenerativeAI,howitworks } from "../../assets/text-image";
-
+import {
+  UseGenerativeAI,
+  howitworks,
+  UseGenerativeAItocreate2,
+} from "../../assets/text-image";
 
 const Layout2 = () => {
   useEffect(() => {
@@ -23,7 +25,10 @@ const Layout2 = () => {
     });
   }, []);
   return (
-    <div id="bg2" className="lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]">
+    <div
+      id="bg2"
+      className="lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]"
+    >
       <p className="lg:text-[35px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
         {" "}
         building a operating system for phygital fashion design, sales and
@@ -84,7 +89,7 @@ const Layout2 = () => {
           <td className="border border-[#FFFFFF26] py-10"></td>
         </tr>
       </table>
-      <p className="lg:mt-[120px] mt-[50px] text-[35px] font-[700]">
+      <p className="lg:mt-[120px] mt-[50px] w-[125px] lg:w-[235px]">
         <img src={howitworks} alt="" />
       </p>
       <p className="font-[700] lg:text-[200px] text-[100px] items-center w-[75px] h-[134px] text-[#FFFFFF26] top-[40px] lg:top-[10px] right-[160px] lg:left-[-550px] relative">
@@ -93,12 +98,20 @@ const Layout2 = () => {
       <div className="flex lg:flex-row z-[9999] flex-col gap-[30px] lg:gap-[60px] lg:px-[150px] lg:mt-[80px]">
         <div
           data-aos="fade-left"
-          className="lg:w-[55%] w-[70%]  pl-[30px] flex flex-col lg:gap-[20px]"
+          className="lg:w-[55%] w-[70%]  pl-[30px] flex flex-col gap-[10px] lg:gap-[20px]"
         >
-          <p className=" w-[350px] lg:w-[693px]">
+          <p className=" hidden lg:flex">
             <img
               src={UseGenerativeAI}
               alt="text-mage"
+              className=" lg:w-[693px]"
+            />
+          </p>
+          <p className="lg:hidden">
+            <img
+              src={UseGenerativeAItocreate2}
+              alt="text-mage"
+              className=" w-[350px] "
             />
           </p>
           <p className="font-[100] lg:text-[20px] text-[15px]">
