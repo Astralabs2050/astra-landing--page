@@ -15,6 +15,7 @@ import Nvidea from "./Nvidea.png";
 import techLogo from "./techLogo.png";
 import TechNationLogo from "./TechNationLogo.png";
 import university_library_reversed from "./university-library_reversed-white-2363x709 1.png";
+import number2 from './2.png'
 
 export {
   Epic_MegaGrants_Recipient_logo,
@@ -34,4 +35,5 @@ export {
   techLogo,
   university_library_reversed,
   TechNationLogo,
+  number2
 };

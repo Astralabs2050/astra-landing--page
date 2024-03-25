@@ -75,9 +75,9 @@ const AllSlides = () => {
       {currentSlide < 4 && (
         <div
           onClick={goToNextSlide}
-          className="relative bottom-[476px] right-[-600px] z-10"
+          className="relative bottom-[476px] right-[-600px] z-10  hidden lg:flex"
         >
-          <FaAngleRight className="text-[60px] hidden lg:flex" />
+          <FaAngleRight className="text-[60px]" />
         </div>
       )}
 

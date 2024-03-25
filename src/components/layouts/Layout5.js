@@ -13,7 +13,7 @@ const Layout5 = () => {
     });
   }, []);
   return (
-    <div id="bg5" className="lg:pt-[150px] pt-[80px] lg:pb-[120px] text-white flex flex-col justify-center items-center">
+    <div id="bg4" className="lg:pt-[150px] pt-[80px] lg:pb-[120px] text-white flex flex-col justify-center items-center">
       <div className="flex lg:flex-row px-[20px] flex-col lg:justify-center lg:items-center lg:gap-[100px]">
         <div data-aos="fade-down">
           <p className=" w-[211px] lg:w-[527px] font-[400] pb-[20px]">
