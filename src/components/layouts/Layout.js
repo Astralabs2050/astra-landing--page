@@ -53,12 +53,9 @@ const Layout = () => {
         </p>
         <p className="flex lg:flex-row flex-col lg:gap-[20px] gap-[10px] mt-[20px] lg:mt-[50px] text-[10px]  lg:text-[20px] font-[200]">
           <button className="lg:w-[230px] w-[195px]  text-[17px] transition-transform duration-300 hover:scale-110 flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
-            Generate Design <FiArrowRight />
+           Join Waitlist <FiArrowRight />
           </button>
-          <button className="lg:w-[230px] w-[195px] text-[17px] transition-transform duration-300 hover:scale-110 lg:h-[54px] h-[40px] flex items-center gap-[10px] justify-center rounded-[5px] bg-transparent border-[0.5px]">
-            Join as a Maker
-            <FiArrowRight />
-          </button>
+         
         </p>
       </div>
       <div

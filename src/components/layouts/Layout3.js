@@ -13,7 +13,7 @@ const Layout3 = () => {
   }, []);
   return (
     <>
-      <table className="table-auto z-[10] border-collapse border-[0.5px] border-[#A1A1A1] w-full absolute top-[1570px] lg:top-[2380px]">
+      <table className="table-auto z-[1] border-collapse border-[0.5px] border-[#A1A1A1] w-full absolute top-[1570px] lg:top-[2380px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-10 "></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
@@ -45,9 +45,9 @@ const Layout3 = () => {
       </table>
       <div
         id="bg3"
-        className="z-[9999] flex flex-col-reverse lg:flex-row lg:mx-auto lg:items-center lg:justify-center gap-[30px] lg:gap-[130px] lg:pt-[200px] pt-[120px] lg:pb-[250px] text-white w-[100%]"
+        className="z-[9999] m-auto flex flex-col-reverse lg:flex-row lg:mx-auto lg:items-center lg:justify-center gap-[30px] lg:gap-[130px] lg:pt-[200px] pt-[120px] lg:pb-[250px] text-white w-[100%]"
       >
-        <p className="font-[700] z-[20] lg:text-[200px] text-[100px] items-center w-[75px] h-[134px] text-[#FFFFFF26] lg:top-[-270px] bottom-[595px] left-[20px] lg:left-[795px] relative">
+        <p className="font-[700] z-[20] lg:text-[200px] text-[100px] items-center w-[75px] h-[134px] text-[#FFFFFF26] lg:top-[-280px] bottom-[595px] left-[20px] lg:left-[795px] relative">
           2
         </p>
         <div data-aos="fade-left" className="z-[9999] px-[20px]">

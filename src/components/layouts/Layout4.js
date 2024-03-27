@@ -14,7 +14,7 @@ const Layout4 = () => {
   }, []);
   return (
     <>
-      <table className="table-auto z-[10] border-collapse border-l-black border-[0.5px] border-[#A1A1A1] w-full absolute top-[2290px] lg:top-[3060px]">
+      <table className="table-auto z-[1] border-collapse border-l-black border-[0.5px] border-[#A1A1A1] w-full absolute top-[2290px] lg:top-[3060px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-14"></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
@@ -56,7 +56,7 @@ const Layout4 = () => {
         id="bg4"
         className="lg:pb-[120px] pb-[50px]  text-white w-[100%] flex flex-col lg:justify-center lg:items-center lg:pt-[30px]"
       >
-        <p className="font-[700] z-[999] lg:text-[200px] text-[100px] lg:items-center w-[75px] lg:h-[134px] text-[#FFFFFF26] lg:top-[-55px] top-[-20px] left-[25px] lg:left-[-530px] relative">
+        <p className="font-[700] z-[9999] lg:text-[200px] text-[100px] lg:items-center w-[75px] lg:h-[134px] text-[#FFFFFF26] lg:top-[-55px] top-[-20px] left-[25px] lg:left-[-530px] relative">
           3
         </p>
 
@@ -84,7 +84,7 @@ const Layout4 = () => {
             <p className="lg:hidden flex mt-[20px]">
               {" "}
               <button className="transition-transform duration-500 hover:scale-110 lg:w-[230px] w-[195px] font-[200] text-[17px] flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
-                Generate Design <FiArrowRight />
+               Join Waitlist <FiArrowRight />
               </button>
             </p>
           </div>

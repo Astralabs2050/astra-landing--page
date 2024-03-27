@@ -6,7 +6,7 @@ import Layout5 from "../layouts/Layout5";
 import Layout7 from "../layouts/Layout7";
 import AllSlides from "../slides/AllSlides";
 import Layout8 from "../layouts/Layout8";
-import FAQs from "../layouts/FAQs/FAQs";
+
 
 export default function LandingPage() {
   return (
@@ -19,7 +19,7 @@ export default function LandingPage() {
       <Layout7 />
       <AllSlides />
       <Layout8 />
-      <FAQs/>
+    
     </div>
   );
 }

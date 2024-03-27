@@ -29,14 +29,14 @@ const Layout2 = () => {
       id="bg2"
       className="lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]"
     >
-      <p className="lg:text-[35px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
+      <p className="lg:text-[35px]  relative lg:top-[-160px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
         {" "}
         building a operating system for phygital fashion design, sales and
         manufacturing with grants & incubation from:
       </p>
       <div
         data-aos="fade-down"
-        className="lg:flex lg:flex-wrap grid grid-cols-3 items-center gap-[20px] lg:gap-[50px] px-[20px] mt-[40px] lg:mt-[80px]"
+        className="lg:flex lg:flex-wrap grid grid-cols-3 items-center gap-[20px] lg:gap-[50px] px-[20px] mt-[40px] lg:mt-[80px]  relative lg:top-[-140px]"
       >
         <span>
           <img src={Metalogo} alt="" />
@@ -59,7 +59,7 @@ const Layout2 = () => {
         </span>
       </div>
       {/* second */}{" "}
-      <table className="table-auto z-[10] border-collapse border-[0.5px] border-[#FFFFFF26] w-full absolute top-[900px] lg:top-[1660px]">
+      <table className="table-auto z-[1] border-collapse border-[0.5px] border-[#FFFFFF26] w-full absolute top-[900px] lg:top-[1660px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-10 "></td>
           <td className="border border-[#FFFFFF26] py-20"></td>

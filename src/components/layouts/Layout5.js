@@ -65,7 +65,7 @@ const Layout5 = () => {
             </li>
           </ul>
           <button className="border transition-transform duration-300 hover:scale-110 rounded-[5px] font-[200] w-[207.53px] h-[57.32px]">
-            Join as a Maker
+           Join Waitlist
           </button>
         </div>
       </div>
