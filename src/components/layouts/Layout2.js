@@ -12,10 +12,11 @@ import {
 } from "../../assets/logo/index";
 import { social1 } from "../../assets";
 import {
-  UseGenerativeAI,
+ 
   howitworks,
   UseGenerativeAItocreate2,
 } from "../../assets/text-image";
+import { UseGenerativeAI } from "../../asset/textImg";
 
 const Layout2 = () => {
   useEffect(() => {
@@ -31,8 +32,7 @@ const Layout2 = () => {
     >
       <p className="lg:text-[35px]  relative lg:top-[-160px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
         {" "}
-        building a operating system for phygital fashion design, sales and
-        manufacturing with grants & incubation from:
+        Creating a phygital fashion OS for design, sales, and manufacturing, supported by grants and incubation from:
       </p>
       <div
         data-aos="fade-down"

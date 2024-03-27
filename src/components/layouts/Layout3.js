@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { social3 } from "../../assets";
-import { CreateAjob } from "../../assets/text-image";
+import { CreateAjob } from "../../asset/textImg";
 
 const Layout3 = () => {
   useEffect(() => {

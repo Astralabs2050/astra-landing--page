@@ -14,12 +14,10 @@ import {
   girl9,
   Boy1,
   Boy2,
-  Glitter,
-  ASTRANEWLOGO,
-} from "../../assets";
+} from "../../asset";
+import { Glitter, ASTRANEWLOGO } from "../../assets";
 
-
-import { BringyourFashionIdeastoLife } from "../../assets/text-image";
+import { BringyourFashionIdeastoLife } from "../../asset/textImg";
 
 const Layout = () => {
   useEffect(() => {
@@ -29,7 +27,8 @@ const Layout = () => {
     });
   }, []);
   return (
-    <div id="bg1"
+    <div
+      id="bg1"
       className={`flex lg:gap-4 gap-[18px] text-white pt-[50px] lg:pt-[100px] w-[100%] justify-center px-[20px]  overflow-auto lg:px-[40px]  pb-[50px] lg:pb-[300px]`}
     >
       <div
@@ -44,7 +43,7 @@ const Layout = () => {
           <img
             src={Glitter}
             alt="glitter"
-            className="relative lg:top-[230px] top-[89px] w-[25px] h-[35px] lg:w-[79px] lg:h-[75px]"
+            className="relative lg:top-[220px] top-[89px] w-[25px] h-[35px] lg:w-[79px] lg:h-[75px]"
           />
         </p>
         <p className="lg:text-[20px] text-[15px] w-[219px] leading-[20.92px] lg:leading-[31.9px] lg:w-[507px] pt-[20px] lg:pt-[80px] font-[100] font-[{'Clash-Grotesk-Variable'}]">
@@ -53,9 +52,8 @@ const Layout = () => {
         </p>
         <p className="flex lg:flex-row flex-col lg:gap-[20px] gap-[10px] mt-[20px] lg:mt-[50px] text-[10px]  lg:text-[20px] font-[200]">
           <button className="lg:w-[230px] w-[195px]  text-[17px] transition-transform duration-300 hover:scale-110 flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
-           Join Waitlist <FiArrowRight />
+            Join Waitlist <FiArrowRight />
           </button>
-         
         </p>
       </div>
       <div
@@ -76,7 +74,7 @@ const Layout = () => {
         </span>
 
         <span>
-          <img src={Boy2} alt="" />
+          <img src={Boy2} alt="" className="w-[137.7px]" />
         </span>
         <span>
           <img src={girl4} alt="" />

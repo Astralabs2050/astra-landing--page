@@ -29,6 +29,7 @@ import BACKGROUNDBLACK4 from "./BACKGROUND-BLACK4.png";
 import BACKGROUNDBLACK5 from "./BACKGROUND-BLACK5.png";
 import BACKGROUNDBLACK6 from "./BACKGROUND-BLACK6.png";
 import BACKGROUNDBLACK7 from "./BACKGROUND-BLACK7.png";
+import girl21 from './girl2 1.svg'
 
 export {
   girl1,
@@ -44,6 +45,7 @@ export {
   girl9,
   Boy1,
   Boy2,
+  girl21,
   BACKGROUNDBLACK1,
   BACKGROUNDBLACK2,
   BACKGROUNDBLACK3,
