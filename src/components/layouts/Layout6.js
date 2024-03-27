@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Glitter, Frame4 } from "../../assets";
-import { joinwaitlist } from "../../assets/text-image";
+import { joinwaitlist } from "../../asset/textImg";
 
 const Layout6 = () => {
   const [formData, setFormData] = useState({

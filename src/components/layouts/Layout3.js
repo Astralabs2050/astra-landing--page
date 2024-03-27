@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { social3 } from "../../assets";
+import { social2 } from "../../asset";
 import { CreateAjob } from "../../asset/textImg";
+import { two } from "../../asset";
 
 const Layout3 = () => {
   useEffect(() => {
@@ -47,12 +48,12 @@ const Layout3 = () => {
         id="bg3"
         className="z-[9999] m-auto flex flex-col-reverse lg:flex-row lg:mx-auto lg:items-center lg:justify-center gap-[30px] lg:gap-[130px] lg:pt-[200px] pt-[120px] lg:pb-[250px] text-white w-[100%]"
       >
-        <p className="font-[700] z-[20] lg:text-[200px] text-[100px] items-center w-[75px] h-[134px] text-[#FFFFFF26] lg:top-[-280px] bottom-[595px] left-[20px] lg:left-[795px] relative">
-          2
+        <p className="font-[700] z-[20] lg:text-[200px] text-[100px] items-center lg:w-[122px] w-[75px] h-[134px] text-[#FFFFFF26] lg:top-[-190px] bottom-[595px] left-[20px] lg:left-[805px] relative">
+          <img src={two} alt="" />
         </p>
-        <div data-aos="fade-left" className="z-[9999] px-[20px]">
+        <div data-aos="fade-left" className="z-[9999] lg:w-[503px] lg:px-0 px-[20px]">
           <img
-            src={social3}
+            src={social2}
             alt=""
             className="transition-transform duration-500 hover:scale-110"
           />

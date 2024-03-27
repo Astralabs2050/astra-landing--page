@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FiArrowRight } from "react-icons/fi";
-import { Listdesignforsale } from "../../assets/text-image";
-import { social2 } from "../../assets";
+import { Listdesignforsale } from "../../asset/textImg";
+import { social3 } from "../../asset";
+import { three } from "../../asset";
 
 const Layout4 = () => {
   useEffect(() => {
@@ -56,8 +57,8 @@ const Layout4 = () => {
         id="bg4"
         className="lg:pb-[120px] pb-[50px]  text-white w-[100%] flex flex-col lg:justify-center lg:items-center lg:pt-[30px]"
       >
-        <p className="font-[700] z-[9999] lg:text-[200px] text-[100px] lg:items-center w-[75px] lg:h-[134px] text-[#FFFFFF26] lg:top-[-55px] top-[-20px] left-[25px] lg:left-[-530px] relative">
-          3
+        <p className="font-[700] lg:w-[122px] z-[9999] lg:text-[200px] text-[100px] lg:items-center w-[75px] text-[#FFFFFF26] lg:top-[20px] top-[-20px] left-[25px] lg:left-[-530px] relative">
+          <img src={three} alt="" />
         </p>
 
         <div className="z-[999] flex lg:flex-row flex-col lg:gap-[40px] gap-[30px] lg:px-[150px] lg:mt-[10px] lg:justify-center lg:item-center lg:top-[0px] relative top-[-70px]">
@@ -77,14 +78,14 @@ const Layout4 = () => {
           </div>
           <div data-aos="fade-right" className="px-[20px]">
             <img
-              src={social2}
+              src={social3}
               alt=""
-              className="transition-transform duration-500 hover:scale-110"
+              className="transition-transform duration-500 hover:scale-110 lg:w-[505px]"
             />
             <p className="lg:hidden flex mt-[20px]">
               {" "}
               <button className="transition-transform duration-500 hover:scale-110 lg:w-[230px] w-[195px] font-[200] text-[17px] flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
-               Join Waitlist <FiArrowRight />
+                Join Waitlist <FiArrowRight />
               </button>
             </p>
           </div>

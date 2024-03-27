@@ -2,11 +2,13 @@
   max-width: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 #bg1 {
   background-image: url("../src/assets/BACKGROUND-BLACK1.png");
   background-size: cover;
+  z-index: -1;
 }
 #bg2 {
   background-image: url("../src/assets/BACKGROUND-BLACK2.png");

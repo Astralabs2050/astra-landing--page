@@ -7,15 +7,13 @@ import {
   KPMGlogo,
   Metalogo,
   Nvidea,
-  techLogo,
+
   TechNationLogo,
-} from "../../assets/logo/index";
-import { social1 } from "../../assets";
-import {
- 
-  howitworks,
-  UseGenerativeAItocreate2,
-} from "../../assets/text-image";
+} from "../../asset/logo/index";
+import { social1 } from "../../asset";
+import { techLogo } from "../../assets/logo/index";
+import { one } from "../../asset";
+import { howitworks, UseGenerativeAItocreate2 } from "../../assets/text-image";
 import { UseGenerativeAI } from "../../asset/textImg";
 
 const Layout2 = () => {
@@ -30,32 +28,33 @@ const Layout2 = () => {
       id="bg2"
       className="lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]"
     >
-      <p className="lg:text-[35px]  relative lg:top-[-160px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
+      <p className="lg:text-[35px] z-[9999] absolute lg:top-[1040px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
         {" "}
-        Creating a phygital fashion OS for design, sales, and manufacturing, supported by grants and incubation from:
+        Creating a phygital fashion OS for design, sales, and manufacturing,
+        supported by grants and incubation from:
       </p>
       <div
         data-aos="fade-down"
-        className="lg:flex lg:flex-wrap grid grid-cols-3 items-center gap-[20px] lg:gap-[50px] px-[20px] mt-[40px] lg:mt-[80px]  relative lg:top-[-140px]"
+        className="lg:flex lg:flex-wrap grid grid-cols-3 items-center gap-[20px] lg:gap-[50px] px-[20px] mt-[40px] lg:mt-[180px]  relative lg:top-[-140px]"
       >
         <span>
-          <img src={Metalogo} alt="" />
+          <img src={Metalogo} alt="" className="w-[156.3px]" />
         </span>
         <span>
-          <img src={KPMGlogo} alt="" />
+          <img src={KPMGlogo} alt="" className="w-[112.41px]" />
         </span>
         <span>
-          <img src={techLogo} alt="" />
+          <img src={TechNationLogo} alt="" className="w-[220.02px]" />
         </span>
-        <span>
-          <img src={TechNationLogo} alt="" />
+        <span className="text-[white]">
+          <img src={techLogo} alt="" className="w-[75.89px] text-[white]" />
         </span>
 
         <span>
-          <img src={Nvidea} alt="" />
+          <img src={Nvidea} alt="" className="w-[173.68px]" />
         </span>
         <span>
-          <img src={FrameUni} alt="" />
+          <img src={FrameUni} alt="" className="w-[155.7px]" />
         </span>
       </div>
       {/* second */}{" "}
@@ -92,8 +91,8 @@ const Layout2 = () => {
       <p className="lg:mt-[120px] mt-[50px] w-[125px] lg:w-[235px]">
         <img src={howitworks} alt="" />
       </p>
-      <p className="font-[700] lg:text-[200px] text-[100px] items-center w-[75px] h-[134px] text-[#FFFFFF26] top-[40px] lg:top-[10px] right-[160px] lg:left-[-550px] relative">
-        1
+      <p className="font-[700] lg:text-[200px] text-[100px] items-center w-[75px] h-[134px] text-[#FFFFFF26] top-[40px] lg:top-[90px] right-[160px] lg:left-[-550px] relative">
+        <img src={one} alt="" />
       </p>
       <div className="flex lg:flex-row z-[9999] flex-col gap-[30px] lg:gap-[60px] lg:px-[150px] lg:mt-[80px]">
         <div
@@ -119,7 +118,7 @@ const Layout2 = () => {
             ownership
           </p>
         </div>
-        <div data-aos="fade-right" className="px-[20px]">
+        <div data-aos="fade-right" className="px-[20px] lg:w-[503px]">
           <img
             src={social1}
             alt=""

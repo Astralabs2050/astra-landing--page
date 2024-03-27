@@ -3,7 +3,7 @@ import Layout6 from "./Layout6";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Frame1, Frame2, Frame3 } from "../../assets";
-import { JoinAsPartner } from "../../assets/text-image";
+import { JoinAsPartner } from "../../asset/textImg";
 
 const Layout5 = () => {
   useEffect(() => {
@@ -20,7 +20,7 @@ const Layout5 = () => {
             <img src={JoinAsPartner} alt="join partner" />
           </p>
           <p className="lg:text-[20px] text-[15px] font-[200]">
-            Register and sign up as a partner on Astra
+            Sign up as a partner on Astra
           </p>
           <div className="flex gap-[20px] mt-[50px]">
             <span>
