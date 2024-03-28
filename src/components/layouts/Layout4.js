@@ -76,7 +76,7 @@ const Layout4 = () => {
               Generate Design <FiArrowRight />
             </button>
           </div>
-          <div data-aos="fade-right" className="px-[20px]">
+          <div data-aos="fade-right" className="px-[20px] overflow-y-hidden">
             <img
               src={social3}
               alt=""

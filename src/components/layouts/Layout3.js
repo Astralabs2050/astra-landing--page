@@ -53,7 +53,7 @@ const Layout3 = () => {
         </p>
         <div
           data-aos="fade-left"
-          className="z-[9999] lg:w-[503px] lg:px-0 px-[20px]"
+          className="z-[9999] lg:w-[503px] lg:px-0 px-[20px] overflow-y-hidden"
         >
           <img
             src={social2}

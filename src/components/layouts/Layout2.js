@@ -99,7 +99,7 @@ const Layout2 = () => {
       <p className="lg:mt-[120px] mt-[50px] w-[125px] lg:w-[235px]">
         <img src={howitworks} alt="" />
       </p>
-      <p className="font-[700] items-center lg:w-[75px] w-[38px] lg:h-[134px] text-[#FFFFFF26] top-[20px] lg:top-[90px] right-[160px] lg:left-[-550px] relative">
+      <p className="font-[700] items-center  lg:w-[75px] w-[38px] lg:h-[134px] text-[#FFFFFF26] top-[20px] lg:top-[90px] right-[160px] lg:left-[-550px] relative">
         <img src={one} alt="" />
       </p>
       <div className="flex lg:flex-row z-[9999] flex-col gap-[30px] lg:gap-[60px] lg:px-[150px] lg:mt-[80px]">
@@ -126,7 +126,7 @@ const Layout2 = () => {
             ownership
           </p>
         </div>
-        <div data-aos="fade-right" className="px-[20px] lg:w-[503px]">
+        <div data-aos="fade-right" className="px-[20px] lg:w-[503px] overflow-y-hidden">
           <img
             src={social1}
             alt=""
