@@ -16,6 +16,10 @@ import three from "./3.png";
 import social1 from "./social11.png";
 import social2 from "./social22.png";
 import social3 from "./social33.png";
+import Frame1 from "./Frame1.png";
+import Frame2 from "./Frame2.png";
+import Frame3 from "./Frame3.png";
+import Frame4 from "./Frame4.png";
 
 export {
   girl1,
@@ -32,6 +36,10 @@ export {
   one,
   three,
   two,
+  Frame1,
+  Frame2,
+  Frame3,
+  Frame4,
   Glitter,
   social1,
   social2,

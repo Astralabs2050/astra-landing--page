@@ -3,7 +3,7 @@ import { FaTwitter } from "react-icons/fa6";
 import { BsDiscord } from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaAngleUp } from "react-icons/fa6";
-import { ASTRANEWLOGO } from "../../assets";
+import { ASTRANEW } from "../../asset/logo";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect, useState } from "react";
@@ -42,7 +42,7 @@ const Layout8 = () => {
         className="bg-black w-[100%] opacity-95 text-white flex lg:flex-row flex-col lg:justify-evenly gap-[50px] lg:items-center px-[20px] lg:h-[267px] py-[40px]"
       >
         <div data-aos="fade-left" className="flex flex-col gap-[50px]">
-          <img src={ASTRANEWLOGO} alt="" className="w-[180px]" />
+          <img src={ASTRANEW} alt="" className="w-[180px]" />
           <div className="text-[15px] hidden lg:flex lg:flex-col font-[100] text-[#A1A1A1]">
             <p>All rights reserved</p>
             <p>&copy; 2024 Astra.</p>

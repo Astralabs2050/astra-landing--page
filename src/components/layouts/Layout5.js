@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Layout6 from "./Layout6";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Frame1, Frame2, Frame3 } from "../../assets";
+import { Frame1, Frame2, Frame3 } from "../../asset";
 import { JoinAsPartner } from "../../asset/textImg";
 
 const Layout5 = () => {
@@ -13,7 +13,10 @@ const Layout5 = () => {
     });
   }, []);
   return (
-    <div id="bg4" className="lg:pt-[150px] pt-[80px] lg:pb-[120px] text-white flex flex-col justify-center items-center">
+    <div
+      id="bg4"
+      className="lg:pt-[150px] pt-[80px] lg:pb-[120px] text-white flex flex-col justify-center items-center"
+    >
       <div className="flex lg:flex-row px-[20px] flex-col lg:justify-center lg:items-center lg:gap-[100px]">
         <div data-aos="fade-down">
           <p className=" w-[211px] lg:w-[527px] font-[400] pb-[20px]">
@@ -24,17 +27,20 @@ const Layout5 = () => {
           </p>
           <div className="flex gap-[20px] mt-[50px]">
             <span>
-              <img src={Frame1} alt="" />
+              <img src={Frame1} alt="" className="w-[134px]" />
             </span>
             <span>
-              <img src={Frame2} alt="" />
+              <img src={Frame2} alt="" className="w-[134px]" />
             </span>
             <span>
-              <img src={Frame3} alt="" />
+              <img src={Frame3} alt="" className="w-[134px]" />
             </span>
           </div>
         </div>
-        <div data-aos="fade-down" className="lg:pt-[80px] pt-[40px] lg:w-[50%]">
+        <div
+          data-aos="fade-down"
+          className="lg:pt-[80px] pt-[40px] lg:w-[50%] p-[10px] overflow-y-hidden"
+        >
           <p className="lg:text-[40px] text-[25px] mb-[20px] font-[300]">
             Earn a Living Making Ideas Real
           </p>
@@ -54,18 +60,18 @@ const Layout5 = () => {
               <span className="p-[3px] w-5 h-5 bg-transparent border-2 border-white rounded-full flex items-center justify-center">
                 <span className=" block w-1 h-1 bg-white rounded-full"></span>
               </span>
-              Get paid fast through crypto
+              Build a reputation for great work 
             </li>
             <li className="flex items-center gap-[10px]">
               {" "}
               <span className="p-[3px] w-5 h-5 bg-transparent border-2 border-white rounded-full flex items-center justify-center">
                 <span className=" block w-1 h-1 bg-white rounded-full"></span>
               </span>
-              Get paid fast through crypto
+              ⁠⁠Earn Astra tokens for completed jobs 
             </li>
           </ul>
-          <button className="border transition-transform duration-300 hover:scale-110 rounded-[5px] font-[200] w-[207.53px] h-[57.32px]">
-           Join Waitlist
+          <button className="border z-[9999]  transition-transform duration-300 hover:scale-110 rounded-[5px] font-[200] w-[207.53px] h-[57.32px]">
+            Join Waitlist
           </button>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FiArrowRight } from "react-icons/fi";
-import { AsSeenOn, pitchdeck } from "../../assets/text-image";
+import { AsSeenOn, pitchdeck } from "../../asset/textImg";
 import {
   image1,
   image2,
@@ -13,7 +13,7 @@ import {
   image7,
   image8,
   image9,
-} from "../../assets/logo";
+} from "../../asset/logo";
 
 const Layout7 = () => {
   useEffect(() => {
@@ -29,7 +29,7 @@ const Layout7 = () => {
     >
       <div
         data-aos="fade-left"
-        className="flex flex-col justify-center items-center px-[10px]"
+        className="flex flex-col justify-center items-center px-[10px] overflow-hidden py-[10px]"
       >
         <p className="lg:w-[254px] w-[180px] mb-[20px]">
           <img src={pitchdeck} alt="pitch" />
@@ -48,7 +48,7 @@ const Layout7 = () => {
       </p>
       <div
         data-aos="fade-left"
-        className="flex w-[90%] lg:w-[1048px] lg:h-[259px] flex-wrap gap-[10px] lg:gap-[40px] justify-center items-center"
+        className="flex w-[90%] lg:w-[1048px] lg:h-[259px] flex-wrap gap-[20px] lg:gap-[40px] justify-center items-center"
       >
         <span>
           <img src={image1} alt="" className="w-[131.97px] lg:w-[213px]" />

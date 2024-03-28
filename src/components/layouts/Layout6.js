@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Glitter, Frame4 } from "../../assets";
+import { Glitter, Frame4 } from "../../asset";
 import { joinwaitlist } from "../../asset/textImg";
 
 const Layout6 = () => {
@@ -104,9 +104,9 @@ const Layout6 = () => {
         </div>
         <div
           data-aos="fade-down"
-          className="flex relative right-[45px] lg:right-0"
+          className="flex relative right-[45px] lg:right-0 "
         >
-          <img src={Frame4} alt="" />
+          <img src={Frame4} alt="" className="w-[757px] " />
         </div>
       </div>
     </div>

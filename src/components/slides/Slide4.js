@@ -2,7 +2,7 @@ import React from "react";
 
 
 import Slide from "./Slide-design";
-import { slide4 } from "../../assets/slidesImg";
+import { slide4 } from "../../asset/slidesImg";
 
 const Slide4 = () => {
   return (

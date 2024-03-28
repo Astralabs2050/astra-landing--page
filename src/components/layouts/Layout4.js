@@ -15,7 +15,7 @@ const Layout4 = () => {
   }, []);
   return (
     <>
-      <table className="table-auto z-[1] border-collapse border-l-black border-[0.5px] border-[#A1A1A1] w-full absolute top-[2290px] lg:top-[3060px]">
+      <table className="table-auto z-[1] border-collapse border-l-black border-[0.5px] border-[#A1A1A1] w-full absolute top-[1950px] lg:top-[3060px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-14"></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
@@ -57,11 +57,11 @@ const Layout4 = () => {
         id="bg4"
         className="lg:pb-[120px] pb-[50px]  text-white w-[100%] flex flex-col lg:justify-center lg:items-center lg:pt-[30px]"
       >
-        <p className="font-[700] lg:w-[122px] z-[9999] lg:text-[200px] text-[100px] lg:items-center w-[75px] text-[#FFFFFF26] lg:top-[20px] top-[-20px] left-[25px] lg:left-[-530px] relative">
+        <p className="font-[700] lg:w-[122px] w-[62px] z-[9999] lg:items-center text-[#FFFFFF26] lg:top-[20px] top-[10px] left-[25px] lg:left-[-530px] relative">
           <img src={three} alt="" />
         </p>
 
-        <div className="z-[999] flex lg:flex-row flex-col lg:gap-[40px] gap-[30px] lg:px-[150px] lg:mt-[10px] lg:justify-center lg:item-center lg:top-[0px] relative top-[-70px]">
+        <div className="z-[999] flex lg:flex-row flex-col lg:gap-[40px] gap-[30px] lg:px-[150px] lg:mt-[10px] lg:justify-center lg:item-center ">
           <div
             data-aos="fade-left"
             className="lg:w-[50%] w-[80%] flex flex-col gap-[20px] pl-[20px]"
@@ -82,7 +82,7 @@ const Layout4 = () => {
               alt=""
               className="transition-transform duration-500 hover:scale-110 lg:w-[505px]"
             />
-            <p className="lg:hidden flex mt-[20px]">
+            <p className="lg:hidden flex mt-[20px] overflow-hidden">
               {" "}
               <button className="transition-transform duration-500 hover:scale-110 lg:w-[230px] w-[195px] font-[200] text-[17px] flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
                 Join Waitlist <FiArrowRight />

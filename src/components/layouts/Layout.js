@@ -15,7 +15,7 @@ import {
   Boy1,
   Boy2,
 } from "../../asset";
-import { ASTRANEWLOGO } from "../../assets";
+import { ASTRANEW } from "../../asset/logo";
 
 import { BringyourFashionIdeastoLife } from "../../asset/textImg";
 import { Glitter } from "../../asset";
@@ -37,7 +37,7 @@ const Layout = () => {
         className=" font-[400] w-[60%] lg:w-[50%] lg:px-[50px]"
       >
         <p className="lg:pb-[50px] pb-[30px]">
-          <img src={ASTRANEWLOGO} alt="" className="w-[100px] lg:w-[200px]" />
+          <img src={ASTRANEW} alt="" className="w-[100px] lg:w-[200px]" />
         </p>
         <p className="text-left flex overflow-y-hidden lg:leading-[108px] text-[32px] lg:text-[75px] font-[tan-waverly,'serif']">
           <img
@@ -53,8 +53,8 @@ const Layout = () => {
           Generate unique fashion designs using AI, find makers near you to
           bring them to life and ship to customers after sales!
         </p>
-        <p className="flex lg:flex-row flex-col lg:gap-[20px] gap-[10px] mt-[20px] lg:mt-[50px] text-[10px]  lg:text-[20px] font-[200]">
-          <button className="lg:w-[230px] w-[195px]  text-[17px] transition-transform duration-300 hover:scale-110 flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
+        <p className="flex lg:flex-row flex-col lg:gap-[20px] gap-[10px] mt-[20px] lg:mt-[50px] text-[10px]  overflow-hidden  lg:text-[20px] font-[200]">
+          <button className="lg:w-[230px] w-[180px]  text-[17px] transition-transform duration-300 hover:scale-110 flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
             Join Waitlist <FiArrowRight />
           </button>
         </p>
@@ -105,7 +105,6 @@ const Layout = () => {
           <img src={girl9} alt="" />
         </span>
       </div>
-   
     </div>
   );
 };

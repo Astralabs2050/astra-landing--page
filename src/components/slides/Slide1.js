@@ -1,7 +1,7 @@
 import React from "react";
 
 import Slide from "./Slide-design";
-import { slide1 } from "../../assets/slidesImg";
+import { slide1 } from "../../asset/slidesImg";
 
 const Slide1 = () => {
   return (
