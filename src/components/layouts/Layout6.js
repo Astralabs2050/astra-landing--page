@@ -37,7 +37,7 @@ const Layout6 = () => {
         alt="glitter"
         className="relative  left-[520px] lg:top-[0px] w-[30px] h-[40px] lg:w-[79px] lg:h-[75px] lg:flex hidden"
       />
-      <div className="flex lg:flex-row flex-col gap-[30px] lg:gap-0  lg:justify-center lg:items-center">
+      <div className="flex lg:flex-row  flex-col gap-[30px] lg:gap-0  lg:justify-center lg:items-center">
         <div
           data-aos="fade-down"
           className="flex flex-col gap-[40px] px-[20px]"
@@ -47,7 +47,7 @@ const Layout6 = () => {
           </p>
           <form
             onSubmit={handleSubmit}
-            className="border border-[#A1A1A1] px-[35px] py-[60px] w-[361px] m-auto flex flex-col gap-[20px] text-[#A1A1A1] rounded-[10px] font-[200]"
+            className="border border-[#A1A1A1] md:w-[500px] px-[35px] py-[60px] lg:w-[361px] w-full m-auto flex flex-col gap-[20px] text-[#A1A1A1] rounded-[10px] font-[200]"
           >
             <div className="">
               <label>Name of the Business:</label>
@@ -104,7 +104,7 @@ const Layout6 = () => {
         </div>
         <div
           data-aos="fade-down"
-          className="flex relative right-[45px] lg:right-0 "
+          className="flex relative right-[45px]n md:right-[75px] lg:right-0 "
         >
           <img src={Frame4} alt="" className="w-[757px] " />
         </div>

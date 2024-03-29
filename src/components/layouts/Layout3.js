@@ -14,7 +14,7 @@ const Layout3 = () => {
   }, []);
   return (
     <>
-      <table className="table-auto z-[1] border-collapse border-[0.5px] border-[#A1A1A1] w-full absolute top-[1275px] lg:top-[2270px]">
+      <table className="table-auto z-[1] border-collapse border-[0.5px]  md:top-[1430px] border-[#A1A1A1] w-full absolute top-[1275px] lg:top-[2270px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-10 "></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
@@ -29,14 +29,14 @@ const Layout3 = () => {
           <td className="border border-[#FFFFFF26] py-20"></td>
           <td className="border border-[#FFFFFF26] py-10"></td>
         </tr>
-        <tr>
+        <tr className="md:hidden lg:table-row">
           <td className="border border-[#FFFFFF26] py-10"></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
           <td className="border border-[#FFFFFF26] py-10"></td>
         </tr>
-        <tr>
+        <tr className="md:hidden lg:table-row">
           <td className="border border-[#FFFFFF26] py-10"></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
           <td className="border border-[#FFFFFF26] py-20"></td>

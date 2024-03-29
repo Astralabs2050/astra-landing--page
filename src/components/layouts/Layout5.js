@@ -17,7 +17,7 @@ const Layout5 = () => {
       id="bg4"
       className="lg:pt-[150px] pt-[80px] lg:pb-[120px] text-white flex flex-col justify-center items-center"
     >
-      <div className="flex lg:flex-row px-[20px] flex-col lg:justify-center lg:items-center lg:gap-[100px]">
+      <div className="flex lg:flex-row px-[20px] md:flex-row md:justify-center md:items-center md:gap-[30px] flex-col lg:justify-center lg:items-center lg:gap-[100px]">
         <div data-aos="fade-down">
           <p className=" w-[211px] lg:w-[527px] font-[400] pb-[20px]">
             <img src={JoinAsPartner} alt="join partner" />
@@ -39,7 +39,7 @@ const Layout5 = () => {
         </div>
         <div
           data-aos="fade-down"
-          className="lg:pt-[80px] pt-[40px] lg:w-[50%] p-[10px] overflow-y-hidden"
+          className="lg:pt-[80px] md:mt-[50px] pt-[40px] lg:w-[50%] p-[10px] overflow-y-hidden"
         >
           <p className="lg:text-[40px] text-[25px] mb-[20px] font-[300]">
             Earn a Living Making Ideas Real
@@ -60,14 +60,14 @@ const Layout5 = () => {
               <span className="p-[3px] w-5 h-5 bg-transparent border-2 border-white rounded-full flex items-center justify-center">
                 <span className=" block w-1 h-1 bg-white rounded-full"></span>
               </span>
-              Build a reputation for great work 
+              Build a reputation for great work
             </li>
             <li className="flex items-center gap-[10px]">
               {" "}
               <span className="p-[3px] w-5 h-5 bg-transparent border-2 border-white rounded-full flex items-center justify-center">
                 <span className=" block w-1 h-1 bg-white rounded-full"></span>
               </span>
-              ⁠⁠Earn Astra tokens for completed jobs 
+              ⁠⁠Earn Astra tokens for completed jobs
             </li>
           </ul>
           <button className="border z-[9999]  transition-transform duration-300 hover:scale-110 rounded-[5px] font-[200] w-[207.53px] h-[57.32px]">

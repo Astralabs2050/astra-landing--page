@@ -66,7 +66,7 @@ const Layout2 = () => {
         </span>
       </div>
       {/* second */}{" "}
-      <table className="table-auto z-[1] border-collapse border-[0.5px] border-[#FFFFFF26] w-full absolute top-[670px] lg:top-[1550px]">
+      <table className="table-auto z-[1] border-collapse border-[0.5px] border-[#FFFFFF26]  md:top-[1060px] w-full absolute top-[670px] lg:top-[1550px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-10 "></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
@@ -81,14 +81,14 @@ const Layout2 = () => {
           <td className="border border-[#FFFFFF26] py-20"></td>
           <td className="border border-[#FFFFFF26] py-10"></td>
         </tr>
-        <tr>
+        <tr className="md:hidden lg:table-row">
           <td className="border border-[#FFFFFF26] py-10"></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
           <td className="border border-[#FFFFFF26] py-20"></td>
           <td className="border border-[#FFFFFF26] py-10"></td>
         </tr>
-        <tr className="">
+        <tr className="md:hidden lg:table-row">
           <td className="border border-[#FFFFFF26] py-10"></td>
           <td className="border border-[#FFFFFF26] lg:py-20 py-10"></td>
           <td className="border border-[#FFFFFF26] lg:py-20 py-10"></td>
