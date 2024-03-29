@@ -15,7 +15,7 @@ const Layout4 = () => {
   }, []);
   return (
     <>
-      <table className="table-auto z-[1] border-collapse border-l-black border-[0.5px] border-[#A1A1A1] w-full absolute top-[1950px] lg:top-[3060px]">
+      <table className="table-auto z-[1] border-collapse border-l-black border-[0.5px] border-[#A1A1A1] w-full absolute top-[1950px] lg:top-[2980px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-14"></td>
           <td className="border border-[#FFFFFF26] py-20"></td>

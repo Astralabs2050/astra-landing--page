@@ -30,26 +30,27 @@ const Layout = () => {
   return (
     <div
       id="bg1"
-      className={`flex z-[-1] lg:gap-4 gap-[18px] text-white pt-[50px] lg:pt-[100px] w-[100%] justify-center px-[20px]  overflow-auto lg:px-[40px]  pb-[50px] lg:pb-[300px]`}
+      className={`flex z-[-1] lg:gap-4 gap-[18px] overflow-y-hidden text-white pt-[50px] lg:pt-[100px] w-[100%] justify-center px-[20px]  overflow-auto lg:px-[40px]  pb-[50px] lg:pb-[300px]`}
     >
       <div
         data-aos="fade-left"
-        className=" font-[400] w-[60%] lg:w-[50%] lg:px-[50px]"
+        className=" font-[400] w-[60%] md:flex md:flex-col md:gap-[40px] lg:gap-0 lg:w-[50%] lg:px-[50px]"
       >
         <p className="lg:pb-[50px] pb-[30px]">
-          <img src={ASTRANEW} alt="" className="w-[100px] lg:w-[200px]" />
+          <img
+            src={ASTRANEW}
+            alt=""
+            className="w-[100px] lg:w-[200px] md:w-[150px]"
+          />
         </p>
         <p className="text-left flex overflow-y-hidden lg:leading-[108px] text-[32px] lg:text-[75px] font-[tan-waverly,'serif']">
           <img
             src={BringyourFashionIdeastoLife}
             alt=""
-            className="lg:w-[570px]"
+            className="lg:w-[598px]"
           />
-          <div className="absolute lg:flex lg:top-[328px] lg:left-[635px] lg:w-[160px] w-[50px] hidden lg:h-[75px]">
-            <img src={Glitter} alt="glitter" className=" " />
-          </div>
         </p>
-        <p className="lg:text-[20px] text-[15px] w-[219px] leading-[20.92px] lg:leading-[31.9px] lg:w-[507px] pt-[20px] lg:pt-[80px] font-[100] font-[{'Clash-Grotesk-Variable'}]">
+        <p className="lg:text-[20px] text-[15px] w-[219px] md:text-[25px] md:w-[600px] md:leading-none overflow-y-hidden leading-[20.92px] lg:leading-[31.9px] lg:w-[507px] pt-[20px] lg:pt-[80px] font-[100] font-[{'Clash-Grotesk-Variable'}]">
           Generate unique fashion designs using AI, find makers near you to
           bring them to life and ship to customers after sales!
         </p>
@@ -59,18 +60,19 @@ const Layout = () => {
           </button>
         </p>
       </div>
-      <div className="absolute lg:hidden lg:top-[228px] left-[245px] top-[200px] w-[25px] h-[35px]">
+      <div className="relative lg:flex lg:top-[320px] md:top-[265px] md:w-[70px] top-[130px] left-[-15px] lg:left-[-55px] lg:w-[160px] w-[40px] lg:h-[75px]">
         <img src={Glitter} alt="glitter" className=" " />
       </div>
+
       <div
         data-aos="fade-right"
         className="grid lg:grid-cols-4 grid-cols-3 justify-center items-center w-[40%] lg:w-[50%]"
       >
         <span>
-          <img src={girl1} alt="" />
+          <img src={girl1} alt="" className="" />
         </span>
         <span>
-          <img src={Boy1} alt="" />
+          <img src={Boy1} alt="" className="" />
         </span>
         <span>
           <img src={girl2} alt="" />
@@ -80,7 +82,7 @@ const Layout = () => {
         </span>
 
         <span>
-          <img src={Boy2} alt="" className="w-[137.7px]" />
+          <img src={Boy2} alt="" className="w-[137px]" />
         </span>
         <span>
           <img src={girl4} alt="" />

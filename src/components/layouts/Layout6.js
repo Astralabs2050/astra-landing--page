@@ -47,7 +47,7 @@ const Layout6 = () => {
           </p>
           <form
             onSubmit={handleSubmit}
-            className="border border-[#A1A1A1] px-[35px] py-[60px] flex flex-col gap-[20px] text-[#A1A1A1] rounded-[10px] font-[200]"
+            className="border border-[#A1A1A1] px-[35px] py-[60px] w-[361px] m-auto flex flex-col gap-[20px] text-[#A1A1A1] rounded-[10px] font-[200]"
           >
             <div className="">
               <label>Name of the Business:</label>
@@ -55,7 +55,7 @@ const Layout6 = () => {
               <input
                 type="text"
                 name="name"
-                className="w-[313px] h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
+                className="w-full h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
                 onChange={handleInputChange}
               />
             </div>
@@ -65,7 +65,7 @@ const Layout6 = () => {
               <input
                 type="email"
                 name="email"
-                className="w-[313px] h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
+                className="w-full h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
                 onChange={handleInputChange}
               />
             </div>
@@ -74,10 +74,10 @@ const Layout6 = () => {
               <br />
               <select
                 name="profession"
-                className="h-[40px] w-[313px] bg-[#D9D9D91A] text-[white] outline-none px-[10px] mt-[5px] rounded-[5px] font-[200]"
+                className="h-[40px]  bg-[#D9D9D91A] text-[white] w-full outline-none px-[10px] mt-[5px] rounded-[5px] font-[200]"
                 onChange={handleInputChange}
               >
-                <option >Select Business Type</option>
+                <option>Select Business Type</option>
                 <option>Fashion Creative</option>
                 <option>Manufacturer</option>
                 <option>3D Studio</option>
@@ -90,13 +90,13 @@ const Layout6 = () => {
               <input
                 type="text"
                 name="website"
-                className="w-[313px] h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
+                className="w-full h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
                 onChange={handleInputChange}
               />
             </div>
             <button
               type="submit"
-              className="w-[313px] transition-transform duration-300 hover:scale-110 h-[40px] bg-white text-black rounded-[5px] mt-[40px]"
+              className="w-full transition-transform duration-300 hover:scale-110 h-[40px] bg-white text-black rounded-[5px] mt-[40px]"
             >
               Send
             </button>
