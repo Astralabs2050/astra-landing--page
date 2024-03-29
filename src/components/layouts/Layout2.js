@@ -99,7 +99,7 @@ const Layout2 = () => {
       <p className="lg:mt-[60px] mt-[50px] md:mt-[100px] md:w-[200px] w-[125px] lg:w-[235px]">
         <img src={howitworks} alt="" />
       </p>
-      <p className="font-[700] items-center  lg:w-[75px] w-[38px] lg:h-[134px] text-[#FFFFFF26] top-[20px] lg:top-[90px] md:left-[-350px] right-[160px] lg:left-[-550px] relative">
+      <p className="font-[700] items-center xl:overflow-y-hidden lg:w-[75px] w-[38px] lg:h-[134px] text-[#FFFFFF26] top-[20px] lg:top-[90px] md:left-[-350px] right-[160px] lg:left-[-550px] relative">
         <img src={one} alt="" />
       </p>
       <div className="flex lg:flex-row z-[9999] md:flex-row flex-col gap-[30px] lg:gap-[60px] lg:px-[150px] lg:mt-[80px]">
