@@ -55,7 +55,7 @@ const Layout4 = () => {
 
       <div
         id="bg4"
-        className="lg:pb-[120px] pb-[50px]  text-white w-[100%] md:pt-[70px] md:px-[30px] flex flex-col lg:justify-center lg:items-center lg:pt-[30px]"
+        className="lg:pb-[120px] pb-[50px]  text-white w-[100%] md:pt-[70px] md:px-[30px] lg:px-0 flex flex-col lg:justify-center lg:items-center lg:pt-[30px]"
       >
         <p className="font-[700] lg:w-[122px] w-[62px] z-[9999] lg:items-center text-[#FFFFFF26] lg:top-[20px] top-[10px] left-[25px] lg:left-[-530px] relative">
           <img src={three} alt="" />
@@ -76,14 +76,11 @@ const Layout4 = () => {
               Generate Design <FiArrowRight />
             </button>
           </div>
-          <div
-            data-aos="fade-right"
-            className="px-[20px] md:w-[70%] overflow-y-hidden"
-          >
+          <div data-aos="fade-right" className="px-[20px] overflow-y-hidden md:w-[60%] lg:w-[50%]">
             <img
               src={social3}
               alt=""
-              className="transition-transform duration-500 hover:scale-110 lg:w-[505px]"
+              className="transition-transform duration-500 hover:scale-110 lg:w-[505px] "
             />
             <p className="lg:hidden flex mt-[20px] overflow-hidden">
               {" "}

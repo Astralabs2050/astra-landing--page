@@ -46,7 +46,7 @@ const Layout3 = () => {
       </table>
       <div
         id="bg3"
-        className="z-[9999] m-auto flex flex-col-reverse md:flex-row md:justify-center md:m-auto lg:flex-row lg:mx-auto lg:items-center lg:justify-center gap-[30px] lg:gap-[130px] lg:pt-[200px] pt-[90px] lg:pb-[250px] text-white w-[100%]"
+        className="z-[9999] m-auto flex flex-col-reverse overflow-y-hidden md:flex-row md:justify-center md:m-auto lg:flex-row lg:mx-auto lg:items-center lg:justify-center gap-[30px] lg:gap-[130px] lg:pt-[200px] pt-[90px] lg:pb-[250px] text-white w-[100%]"
       >
         <p className="font-[700] z-[20] items-center lg:w-[122px] md:top-[-68px]  w-[61px] lg:h-[134px] text-[#FFFFFF26] lg:top-[-190px] bottom-[565px] md:left-[420px] md:w-[100px] left-[30px] lg:left-[805px] relative">
           <img src={two} alt="" />

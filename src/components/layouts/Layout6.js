@@ -104,7 +104,7 @@ const Layout6 = () => {
         </div>
         <div
           data-aos="fade-down"
-          className="flex relative right-[45px]n md:right-[75px] lg:right-0 "
+          className="flex relative right-[45px] md:right-[75px] lg:right-0 "
         >
           <img src={Frame4} alt="" className="w-[757px] " />
         </div>
