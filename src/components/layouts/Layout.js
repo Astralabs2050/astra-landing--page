@@ -18,7 +18,7 @@ import {
 import { ASTRANEW } from "../../asset/logo";
 
 import { BringyourFashionIdeastoLife } from "../../asset/textImg";
-import { Glitter } from "../../asset";
+import { Glitter } from "../../assets";
 
 const Layout = () => {
   useEffect(() => {
@@ -34,7 +34,7 @@ const Layout = () => {
     >
       <div
         data-aos="fade-left"
-        className=" font-[400] w-[60%] md:flex md:flex-col md:gap-[40px] lg:gap-0 lg:w-[50%] lg:px-[50px]"
+        className=" font-[400]  w-[60%] md:flex md:flex-col md:gap-[40px] lg:gap-0 lg:w-[50%] lg:px-[50px]"
       >
         <p className="lg:pb-[50px] pb-[30px]">
           <img
@@ -43,13 +43,19 @@ const Layout = () => {
             className="w-[100px] lg:w-[200px] md:w-[150px]"
           />
         </p>
-        <p className="text-left flex overflow-y-hidden lg:leading-[108px] text-[32px] lg:text-[75px] font-[tan-waverly,'serif']">
-          <img
-            src={BringyourFashionIdeastoLife}
-            alt=""
-            className="lg:w-[598px]"
-          />
-        </p>
+        <div className="flex items-end  relative overflow-y-hidden">
+          <div>
+            <img
+              src={BringyourFashionIdeastoLife}
+              alt=""
+              className="w-[507px]"
+            />
+          </div>
+
+          <div className=" lg:flex ">
+            <img src={Glitter} alt="glitter" className=" " />
+          </div>
+        </div>
         <p className="lg:text-[20px] text-[15px] w-[219px] md:text-[25px] md:w-[600px] md:leading-none overflow-y-hidden leading-[20.92px] lg:leading-[31.9px] lg:w-[507px] pt-[20px] lg:pt-[80px] font-[100] font-[{'Clash-Grotesk-Variable'}]">
           Generate unique fashion designs using AI, find makers near you to
           bring them to life and ship to customers after sales!
@@ -59,9 +65,6 @@ const Layout = () => {
             Join Waitlist <FiArrowRight />
           </button>
         </p>
-      </div>
-      <div className="relative lg:flex lg:top-[320px] md:top-[265px] md:w-[70px] top-[130px] left-[-15px] lg:left-[-55px] lg:w-[160px] w-[40px] lg:h-[75px]">
-        <img src={Glitter} alt="glitter" className=" " />
       </div>
 
       <div
@@ -82,7 +85,7 @@ const Layout = () => {
         </span>
 
         <span>
-          <img src={Boy2} alt="" className="w-[137px]" />
+          <img src={Boy2} alt="" className="w-[130px]" />
         </span>
         <span>
           <img src={girl4} alt="" />

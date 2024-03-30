@@ -28,7 +28,7 @@ const Layout2 = () => {
       id="bg2"
       className="lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]"
     >
-      <p className="lg:text-[35px] z-[9999] md:top-[700px] md:text-[30px] absolute lg:top-[990px] top-[430px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
+      <p className="lg:text-[35px] z-[9999] md:top-[700px] md:text-[30px] lg:absolute lg:top-[990px] top-[430px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
         {" "}
         Creating a phygital fashion OS for design, sales, and manufacturing,
         supported by grants and incubation from:
@@ -68,18 +68,18 @@ const Layout2 = () => {
       {/* second */}{" "}
       <table className="table-auto z-[1] border-collapse border-[0.5px] border-[#FFFFFF26]  md:top-[1060px] w-full absolute top-[670px] lg:top-[1550px]">
         <tr>
-          <td className="border border-[#FFFFFF26] py-10 "></td>
-          <td className="border border-[#FFFFFF26] py-20"></td>
-          <td className="border border-[#FFFFFF26] py-20"></td>
-          <td className="border border-[#FFFFFF26] py-20"></td>
-          <td className="border border-[#FFFFFF26] py-10"></td>
+          <td className="border border-[#FFFFFF26] py-10 border-r-0"></td>
+          <td className="border border-[#FFFFFF26] py-20 border-r-0"></td>
+          <td className="border border-[#FFFFFF26] py-20 border-r-0"></td>
+          <td className="border border-[#FFFFFF26] py-20 border-r-0"></td>
+          <td className="border border-[#FFFFFF26] py-10 border-r-0"></td>
         </tr>
         <tr>
-          <td className="border border-[#FFFFFF26] py-10"></td>
-          <td className="border border-[#FFFFFF26] py-20"></td>
-          <td className="border border-[#FFFFFF26] py-20"></td>
-          <td className="border border-[#FFFFFF26] py-20"></td>
-          <td className="border border-[#FFFFFF26] py-10"></td>
+          <td className="border border-[#FFFFFF26] py-10 border-r-0"></td>
+          <td className="border border-[#FFFFFF26] py-20 border-r-0"></td>
+          <td className="border border-[#FFFFFF26] py-20 border-r-0"></td>
+          <td className="border border-[#FFFFFF26] py-20 border-r-0"></td>
+          <td className="border border-[#FFFFFF26] py-10 border-r-0"></td>
         </tr>
         <tr className="md:hidden lg:table-row">
           <td className="border border-[#FFFFFF26] py-10"></td>
