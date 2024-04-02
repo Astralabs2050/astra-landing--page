@@ -19,7 +19,7 @@ const Layout5 = () => {
     >
       <div className="flex lg:flex-row px-[20px] md:flex-row md:justify-center md:items-center md:gap-[30px] flex-col lg:justify-center lg:items-center lg:gap-[100px]">
         <div data-aos="fade-down">
-          <p className=" w-[211px] lg:w-[527px] font-[400] pb-[20px]">
+          <p className=" w-[211px] md:w-[300px] lg:w-[527px] font-[400] pb-[20px]">
             <img src={JoinAsPartner} alt="join partner" />
           </p>
           <p className="lg:text-[20px] text-[15px] font-[200]">

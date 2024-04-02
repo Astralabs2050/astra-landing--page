@@ -110,6 +110,11 @@ const Layout = () => {
           <img src={girl9} alt="" />
         </span>
       </div>
+      <p className="lg:text-[35px] z-[9999] md:top-[700px] md:text-[30px] lg:absolute lg:flex xl:top-[990px] lg:top-[840px] hidden top-[430px] text-center text-[15px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
+        {" "}
+        Creating a phygital fashion OS for design, sales, and manufacturing,
+        supported by grants and incubation from:
+      </p>
     </div>
   );
 };
