@@ -53,7 +53,7 @@ const Layout = () => {
             />
           </div>
 
-          <div className=" lg:flex relative top-[5px]">
+          <div className=" lg:flex relative lg:top-[5px] top-[3px]">
             <img src={Glitter} alt="glitter" className="" />
           </div>
         </div>

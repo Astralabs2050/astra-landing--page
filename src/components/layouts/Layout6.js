@@ -57,7 +57,7 @@ const Layout6 = () => {
             className="border border-[#A1A1A1] md:w-[500px] px-[35px] py-[60px] lg:w-[361px] w-full m-auto flex flex-col gap-[20px] text-[#A1A1A1] rounded-[10px] font-[200]"
           >
             <div className="">
-              <label>Name of the Business:</label>
+              <label>Name:</label>
               <br />
               <input
                 required
@@ -123,7 +123,7 @@ const Layout6 = () => {
           data-aos="fade-down"
           className="flex relative right-[45px] md:right-[75px] lg:right-0 "
         >
-          <img src={Frame4} alt="" className="w-[757px] " />
+          <img src={Frame4} alt="" className="w-[757px]" />
         </div>
       </div>
     </div>
