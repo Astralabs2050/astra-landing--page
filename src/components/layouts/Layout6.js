@@ -1,33 +1,40 @@
 import React, { useEffect, useState } from "react";
-import AOS from "aos";
+
 import "aos/dist/aos.css";
 import { Glitter, Frame4 } from "../../asset";
 import { joinwaitlist } from "../../asset/textImg";
+import { useForm } from "@formspree/react";
 
 const Layout6 = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    profession: "",
-    website: "",
-  });
-  useEffect(() => {
-    AOS.init({
-      once: true,
-      duration: 1000,
-    });
-  }, []);
+  const [state, handleSubmit] = useForm("mpzvpolb");
+  if (state.succeeded) {
+    setTimeout(() => {
+      return <p>Thanks for getting in touch!</p>;
+    }, 5000);
+  }
+  const [showMessage, setShowMessage] = useState(false);
 
-  const handleInputChange = (e) => {
-    setFormData((prevFormData) => ({
-      ...prevFormData,
-      [e.target.name]: e.target.value,
-    }));
-  };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);
-  };
+  useEffect(() => {
+    if (state.succeeded) {
+      // Show the success message
+      setShowMessage(true);
+
+      // Set a timer to hide the message or refresh the page after 5 seconds
+      const timerId = setTimeout(() => {
+        // Hide the message (if you want to stay on the page and just hide the message)
+        setShowMessage(false);
+
+        // Or refresh the page
+        window.location.reload();
+
+        // Or if using React Router for navigation in a SPA, you might navigate to a different route
+        // navigate('/thank-you'); // Uncomment and use this line if using React Router and you want to navigate
+      }, 5000);
+
+      // Cleanup function to clear the timer if the component unmounts
+      return () => clearTimeout(timerId);
+    }
+  }, [state.succeeded]);
 
   return (
     <div className="lg:mt-[150px] mt-[100px] ">
@@ -53,29 +60,32 @@ const Layout6 = () => {
               <label>Name of the Business:</label>
               <br />
               <input
+                required
                 type="text"
                 name="name"
+                id="name"
                 className="w-full h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
-                onChange={handleInputChange}
               />
             </div>
             <div>
               <label>Email:</label>
               <br />
               <input
+                required
                 type="email"
                 name="email"
+                id="email"
                 className="w-full h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
-                onChange={handleInputChange}
               />
             </div>
             <div>
               <label>Are You a:</label>
               <br />
               <select
+                required
                 name="profession"
+                id="profession"
                 className="h-[40px]  bg-[#D9D9D91A] text-[white] w-full outline-none px-[10px] mt-[5px] rounded-[5px] font-[200]"
-                onChange={handleInputChange}
               >
                 <option>Select Business Type</option>
                 <option>Fashion Creative</option>
@@ -88,19 +98,26 @@ const Layout6 = () => {
               <br />
 
               <input
+                required
                 type="text"
                 name="website"
+                id="website"
                 className="w-full h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
-                onChange={handleInputChange}
               />
             </div>
             <button
               type="submit"
+              disabled={state.submitting}
               className="w-full transition-transform duration-300 hover:scale-110 h-[40px] bg-white text-black rounded-[5px] mt-[40px]"
             >
               Send
             </button>
           </form>
+          {showMessage && (
+            <p className="text-[white] text-[30px]">
+              Thanks for getting in touch!
+            </p>
+          )}
         </div>
         <div
           data-aos="fade-down"

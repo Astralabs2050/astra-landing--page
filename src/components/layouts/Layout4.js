@@ -32,17 +32,17 @@ const Layout4 = () => {
         </tr>
         <tr>
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
-          <td className="border border-[#FFFFFF26] py-20 "></td>
-          <td className="border border-[#FFFFFF26] py-20  "></td>
-          <td className="border border-[#FFFFFF26]  py-20  "></td>
-          <td className="border border-[#FFFFFF26]  py-10  border-r-transparent"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-10 border-r-transparent"></td>
         </tr>
         <tr className="md:hidden table-row lg:table-row">
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
-          <td className="border border-[#FFFFFF26] py-20 "></td>
-          <td className="border border-[#FFFFFF26] py-20  "></td>
-          <td className="border border-[#FFFFFF26] py-20  "></td>
-          <td className="border border-[#FFFFFF26] py-10  border-r-transparent"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-10 border-r-transparent"></td>
         </tr>
         <tr className="md:hidden hidden  lg:hidden">
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
