@@ -26,7 +26,7 @@ const Layout2 = () => {
   return (
     <div
       id="bg2"
-      className="relative lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]"
+      className="relative overflow-y-hidden lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]"
     >
       <p className="lg:text-[35px] z-[9999] md:top-[700px] md:text-[30px] lg:hidden xl:top-[-90px] lg:top-[870px] top-[430px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
         {" "}

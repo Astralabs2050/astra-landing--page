@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Frame1, Frame2, Frame3 } from "../../asset";
 import { JoinAsPartner } from "../../asset/textImg";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Layout5 = () => {
   useEffect(() => {
@@ -70,9 +71,12 @@ const Layout5 = () => {
               ⁠⁠Earn Astra tokens for completed jobs
             </li>
           </ul>
-          <button className="border z-[9999]  transition-transform duration-300 hover:scale-110 rounded-[5px] font-[200] w-[207.53px] h-[57.32px]">
+          <Link to="#joinwaitlist" smooth className="">
+          <button className="border hover:bg-[#504f4f7b] hover:opacity-90 hover:border-none z-[9999] transition-transform duration-300 hover:scale-110 rounded-[5px] font-[200] w-[207.53px] h-[57.32px]">
             Join Waitlist
           </button>
+          </Link>
+         
         </div>
       </div>
 

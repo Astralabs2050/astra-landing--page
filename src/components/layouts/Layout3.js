@@ -13,7 +13,7 @@ const Layout3 = () => {
     });
   }, []);
   return (
-    <div id="bg3" className="relative w-100%">
+    <div id="bg3" className="relative w-100% overflow-y-hidden ">
       <table className="table-auto z-[1] border-collapse border-[0.5px] *:overflow-y-auto border-[#A1A1A1] w-full m-auto absolute top-[18px] lg:top-[0]  xl:top-[45px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>

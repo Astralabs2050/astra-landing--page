@@ -37,7 +37,7 @@ const Layout6 = () => {
   }, [state.succeeded]);
 
   return (
-    <div className="lg:mt-[150px] mt-[100px] ">
+    <div className="lg:mt-[150px] mt-[100px]" id="joinwaitlist">
       <img
         data-aos="fade-right"
         src={Glitter}

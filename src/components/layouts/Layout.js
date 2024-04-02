@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FiArrowRight } from "react-icons/fi";
+import { HashLink as Link } from "react-router-hash-link";
 import {
   girl1,
   girl2,
@@ -61,9 +62,11 @@ const Layout = () => {
           bring them to life and ship to customers after sales!
         </p>
         <p className="flex lg:flex-row flex-col lg:gap-[20px] gap-[10px] mt-[20px] lg:mt-[50px] text-[10px]  overflow-hidden  lg:text-[20px] font-[200]">
-          <button className="lg:w-[230px] w-[180px]  text-[17px] transition-transform duration-300 hover:scale-110 flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
-            Join Waitlist <FiArrowRight />
-          </button>
+          <Link to="#joinwaitlist" smooth>
+            <button className="lg:w-[230px] w-[180px]  text-[17px] transition-transform duration-300 hover:scale-110 flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
+              Join Waitlist <FiArrowRight />
+            </button>
+          </Link>
         </p>
       </div>
 
