@@ -44,7 +44,7 @@ const Layout3 = () => {
           <td className="border border-[#FFFFFF26]  md:py-8 py-10  border-r-transparent"></td>
         </tr>
       </table>
-      <div className="z-[9999] *:m-auto flex flex-col-reverse *:overflow-y-hidden lg:flex-row md:flex-row *:justify-center md:px-[30px] gap-[30px] lg:px-[140px] xl:pl-[160px] lg:gap-[20px] lg:pt-[50px] pt-[10px] lg:pb-[200px] pb-[90px] text-white w-[100%]">
+      <div className="z-[9999] *:m-auto flex flex-col-reverse *:overflow-y-hidden lg:flex-row md:flex-row *:justify-center md:px-[30px] gap-[30px] lg:px-[120px] xl:pl-[160px] lg:gap-[150px] lg:pt-[50px] pt-[10px] lg:pb-[200px] pb-[90px] text-white w-[100%]">
         <div
           data-aos="fade-left"
           className="z-[9999] lg:w-[503px] lg:px-[40px] md:pt-[120px] xl:px-0  px-[20px] *:overflow-y-hidden md:w-[50%] md:px-0"
@@ -53,7 +53,7 @@ const Layout3 = () => {
         </div>
         <div
           data-aos="fade-right"
-          className="lg:w-[50%] w-[80%] z-[9999] flex flex-col gap-[25px]"
+          className="lg:w-[50%] w-[80%] z-[9999] relative left-[-15px] lg:left-0 flex flex-col gap-[25px]"
         >
           <p className="lg:w-[122px] w-[61px] relative top-[35px]">
             <img src={two} alt="" />

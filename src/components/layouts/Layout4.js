@@ -16,20 +16,20 @@ const Layout4 = () => {
   }, []);
   return (
     <div id="bg4" className="relative w-[100%] max-h-[100%] overflow-y-hidden">
-      <table className="table-auto z-[1] border-collapse overflow-y-hidden border-l-black border-[0.5px] border-[#A1A1A1] w-full absolute top-[20px] lg:top-[30px]">
+      <table className="table-auto z-[1] border-collapse overflow-y-hidden border-l-black border-[0.5px] border-[#A1A1A1] w-full absolute top-[15px] lg:top-[30px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
-          <td className="border border-[#FFFFFF26] py-20 "></td>
-          <td className="border border-[#FFFFFF26]  py-20  "></td>
-          <td className="border border-[#FFFFFF26]  py-20  "></td>
-          <td className="border border-[#FFFFFF26] py-10  border-r-transparent"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-10 border-r-transparent"></td>
         </tr>
         <tr>
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
-          <td className="border border-[#FFFFFF26] py-20 "></td>
-          <td className="border border-[#FFFFFF26]  py-20  "></td>
-          <td className="border border-[#FFFFFF26]  py-20  "></td>
-          <td className="border border-[#FFFFFF26]  py-10  border-r-transparent"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-10 border-r-transparent"></td>
         </tr>
         <tr>
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
@@ -55,7 +55,7 @@ const Layout4 = () => {
       </table>
 
       <div className=" lg:pb-[120px] pb-[50px] z-[9999]  text-white w-[100%] md:pt-[70px] md:px-[30px] lg:px-0 flex flex-col lg:justify-center lg:items-center lg:pt-[20px]">
-        <div className="z-[999] flex lg:flex-row  md:flex-row  flex-col lg:gap-[40px] gap-[30px] lg:px-[150px] lg:mt-[10px] lg:justify-center lg:item-center ">
+        <div className="z-[999] flex lg:flex-row  md:flex-row  flex-col lg:gap-[100px] gap-[30px] lg:px-[120px] lg:mt-[10px] lg:justify-center lg:item-center ">
           <div
             data-aos="fade-left"
             className="lg:w-[50%] w-[80%] flex flex-col gap-[20px] pl-[20px]"
@@ -66,7 +66,7 @@ const Layout4 = () => {
             <p>
               <img src={Listdesignforsale} alt="" />
             </p>
-            <p className="font-[100]">
+            <p className="font-[100] lg:text-[20px] text-15px">
               Sell designs through our marketplace and ship after sales!
             </p>
             <p className="z-[9999] lg:flex relative">
@@ -87,7 +87,11 @@ const Layout4 = () => {
 
             <p className="lg:hidden flex mt-[20px] relative overflow-hidden z-[9999]">
               {" "}
-              <Link to="#joinwaitlist" smooth className="z-[9999]  overflow-y-hidden ">
+              <Link
+                to="#joinwaitlist"
+                smooth
+                className="z-[9999]  overflow-y-hidden "
+              >
                 <button className="transition-transform duration-500 hover:scale-110 z-[9999] lg:w-[230px] w-[195px] font-[200] text-[17px] flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
                   Join Waitlist <FiArrowRight />
                 </button>
