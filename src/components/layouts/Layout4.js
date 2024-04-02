@@ -87,7 +87,7 @@ const Layout4 = () => {
 
             <p className="lg:hidden flex mt-[20px] relative overflow-hidden z-[9999]">
               {" "}
-              <Link to="#joinwaitlistn" smooth className="z-[9999]">
+              <Link to="#joinwaitlist" smooth className="z-[9999]  overflow-y-hidden ">
                 <button className="transition-transform duration-500 hover:scale-110 z-[9999] lg:w-[230px] w-[195px] font-[200] text-[17px] flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
                   Join Waitlist <FiArrowRight />
                 </button>
