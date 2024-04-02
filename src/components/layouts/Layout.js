@@ -43,7 +43,7 @@ const Layout = () => {
             className="w-[100px] lg:w-[200px] md:w-[150px]"
           />
         </p>
-        <div className="flex items-end  relative overflow-y-hidden">
+        <div className="flex items-end lg:gap-[12px] gap-[3px] relative lg:pb-0 pb-[3px] overflow-y-hidden">
           <div>
             <img
               src={BringyourFashionIdeastoLife}
@@ -52,11 +52,11 @@ const Layout = () => {
             />
           </div>
 
-          <div className=" lg:flex ">
-            <img src={Glitter} alt="glitter" className=" " />
+          <div className=" lg:flex relative top-[5px]">
+            <img src={Glitter} alt="glitter" className="" />
           </div>
         </div>
-        <p className="lg:text-[20px] text-[15px] w-[219px] md:text-[25px] md:w-[600px] md:leading-none overflow-y-hidden leading-[20.92px] lg:leading-[31.9px] lg:w-[507px] pt-[20px] lg:pt-[80px] font-[100] font-[{'Clash-Grotesk-Variable'}]">
+        <p className="lg:text-[20px] text-[12px] w-[219px] md:text-[25px] md:w-[600px] md:leading-none overflow-y-hidden leading-[20.92px] lg:leading-[31.9px] lg:w-[507px] pt-[20px] lg:pt-[80px] font-[100] font-[{'Clash-Grotesk-Variable'}]">
           Generate unique fashion designs using AI, find makers near you to
           bring them to life and ship to customers after sales!
         </p>
