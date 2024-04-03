@@ -68,9 +68,17 @@ const Layout8 = () => {
         >
           <p className="text-[17px] text-[#F5F9FC]">Socials</p>
           <p className="flex gap-[30px] text-[#A1A1A1]  text-[20px]">
-            <BsDiscord />
-            <FaTwitter />
-            <RiInstagramFill />
+            <a href="https://t.me/+u-FRCcleboA3MzA0">
+              <BsDiscord />
+            </a>
+            <a href="https://x.com/astraverse2050?s=21">
+              {" "}
+              <FaTwitter />
+            </a>
+            <a href="https://www.instagram.com/astraverse2050?igsh=MW8wNWFpemo5czc%3D&utm_source=qr">
+              {" "}
+              <RiInstagramFill />
+            </a>
           </p>
         </div>
         <div

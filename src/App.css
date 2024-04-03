@@ -23,10 +23,10 @@
 #bg4 {
   background-image: url("../src/assets/BACKGROUND-BLACK4.png");
   background-size: cover;
-
 }
 #bg5 {
   background-image: url("../src/assets/BACKGROUND-BLACK5.png");
+  background-size: cover;
 }
 #bg6 {
   background-image: url("../src/assets/BACKGROUND-BLACK6.png");

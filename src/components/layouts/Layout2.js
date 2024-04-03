@@ -137,7 +137,7 @@ const Layout2 = () => {
           </div>
           <div
             data-aos="fade-right"
-            className="px-[20px] lg:w-[45%] md:w-[50%] overflow-y-hidden lg:pt-[100px] md:pt-[100px]"
+            className="px-[20px] z-20 lg:w-[45%] md:w-[50%] overflow-y-hidden lg:pt-[100px] md:pt-[100px]"
           >
             <img src={social1} alt="" className="" />
           </div>

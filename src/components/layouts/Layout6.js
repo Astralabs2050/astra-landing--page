@@ -62,8 +62,8 @@ const Layout6 = () => {
               <input
                 required
                 type="text"
-                name="name"
-                id="name"
+                name="Name"
+                id="Name"
                 className="w-full h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
               />
             </div>
@@ -73,8 +73,8 @@ const Layout6 = () => {
               <input
                 required
                 type="email"
-                name="email"
-                id="email"
+                name="Email"
+                id="Email"
                 className="w-full h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
               />
             </div>
@@ -83,9 +83,9 @@ const Layout6 = () => {
               <br />
               <select
                 required
-                name="profession"
-                id="profession"
-                className="h-[40px]  bg-[#D9D9D91A] text-[white] w-full outline-none px-[10px] mt-[5px] rounded-[5px] font-[200]"
+                name="Profession"
+                id="Profession"
+                className="h-[40px] bg-[#D9D9D91A] text-[white] w-full outline-none px-[10px] mt-[5px] rounded-[5px] font-[200]"
               >
                 <option>Select Business Type</option>
                 <option>Fashion Creative</option>
@@ -100,8 +100,8 @@ const Layout6 = () => {
               <input
                 required
                 type="text"
-                name="website"
-                id="website"
+                name="Website"
+                id="Website"
                 className="w-full h-[40px] bg-[#D9D9D91A] outline-none pl-[10px] mt-[5px] rounded-[5px]"
               />
             </div>

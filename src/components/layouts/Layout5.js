@@ -45,11 +45,11 @@ const Layout5 = () => {
           <p className="lg:text-[40px] text-[25px] mb-[20px] font-[300]">
             Earn a Living Making Ideas Real
           </p>
-          <p className="lg:text-[20px] text-[16px] w-[414px] font-[100] mb-[20px]">
+          <p className="lg:text-[20px] text-[#F8F8F8] text-[16px] w-[414px] font-[100] mb-[20px]">
             With Astra you take your 3D design studio or physical manufacturing
             hub to the next level!
           </p>
-          <ul className="lg:text-[20px] font-[100] list-item mb-[20px] text-[16px]">
+          <ul className="lg:text-[20px] font-[100]  mb-[20px] flex flex-col lg:gap-[15px] gap-[10px] text-[15px]">
             <li className="flex items-center gap-[10px]">
               <span className="p-[3px] w-5 h-5 bg-transparent border-2 border-white rounded-full flex items-center justify-center">
                 <span className=" block w-1 h-1 bg-white rounded-full"></span>
@@ -72,7 +72,7 @@ const Layout5 = () => {
             </li>
           </ul>
           <Link to="#joinwaitlist" smooth className="">
-            <button className="border hover:bg-[#504f4f7b] hover:opacity-90 hover:border-none z-[9999] transition-transform duration-300 hover:scale-110 rounded-[5px] font-[200] w-[207.53px] h-[57.32px]">
+            <button className="border hover:bg-[#3c3b3b7b] mt-[20px] hover:opacity-95  hover:text-white hover:border-none z-[9999] transition-transform duration-300 hover:scale-110 rounded-[5px] font-[200] w-[207.53px] h-[57.32px]">
               Join Waitlist
             </button>
           </Link>
