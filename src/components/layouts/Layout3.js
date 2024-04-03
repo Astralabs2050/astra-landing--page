@@ -17,12 +17,12 @@ const Layout3 = () => {
       <table className="table-auto z-[1] border-collapse border-[0.5px] *:overflow-y-auto border-[#A1A1A1] w-full m-auto absolute top-[18px] lg:top-[0]  xl:top-[45px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
-          <td className="border border-[#FFFFFF26] py-20 "></td>
+          <td className="border border-[#FFFFFF26] py-20 bg-[#A1A1A1] opacity-10"></td>
           <td className="border border-[#FFFFFF26]  hidden lg:py-20 lg:table-cell "></td>
           <td className="border border-[#FFFFFF26] hidden lg:py-20  lg:table-cell"></td>
           <td className="border border-[#FFFFFF26]   py-10  border-r-transparent"></td>
         </tr>
-        <tr>
+        <tr className="">
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
           <td className="border border-[#FFFFFF26] py-20 "></td>
           <td className="border border-[#FFFFFF26]  hidden lg:py-20 lg:table-cell "></td>
@@ -31,7 +31,7 @@ const Layout3 = () => {
         </tr>
         <tr className="lg:table-row">
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
-          <td className="border border-[#FFFFFF26] py-20 "></td>
+          <td className="border border-[#FFFFFF26] py-20"></td>
           <td className="border border-[#FFFFFF26]  hidden lg:py-20 lg:table-cell "></td>
           <td className="border border-[#FFFFFF26] hidden lg:py-20  lg:table-cell"></td>
           <td className="border border-[#FFFFFF26]  py-10  border-r-transparent"></td>

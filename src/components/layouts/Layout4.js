@@ -19,7 +19,7 @@ const Layout4 = () => {
       <table className="table-auto z-[1] border-collapse overflow-y-hidden border-l-black border-[0.5px] border-[#A1A1A1] w-full absolute top-[15px] lg:top-[30px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
-          <td className="border border-[#FFFFFF26] py-20"></td>
+          <td className="border border-[#FFFFFF26] py-20 bg-[#A1A1A1] opacity-10 "></td>
           <td className="border border-[#FFFFFF26]  hidden lg:py-20 lg:table-cell "></td>
           <td className="border border-[#FFFFFF26] hidden lg:py-20  lg:table-cell"></td>
           <td className="border border-[#FFFFFF26] py-10 border-r-transparent"></td>
