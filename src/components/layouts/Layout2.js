@@ -74,29 +74,29 @@ const Layout2 = () => {
           <tr>
             <td className="border border-[#FFFFFF26]  py-10 border-l-transparent"></td>
             <td className="border border-[#FFFFFF26]  py-20 "></td>
-            <td className="border border-[#FFFFFF26]   py-20  "></td>
-            <td className="border border-[#FFFFFF26]  py-20  "></td>
+            <td className="border border-[#FFFFFF26]  hidden lg:py-20 lg:table-cell "></td>
+          <td className="border border-[#FFFFFF26] hidden lg:py-20  lg:table-cell"></td>
             <td className="border border-[#FFFFFF26]  py-10  border-r-transparent"></td>
           </tr>
           <tr>
             <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
             <td className="border border-[#FFFFFF26] py-20"></td>
-            <td className="border border-[#FFFFFF26] py-20"></td>
-            <td className="border border-[#FFFFFF26]   py-20  "></td>
+            <td className="border border-[#FFFFFF26]  hidden lg:py-20 lg:table-cell "></td>
+          <td className="border border-[#FFFFFF26] hidden lg:py-20  lg:table-cell"></td>
             <td className="border border-[#FFFFFF26] py-10 border-r-transparent"></td>
           </tr>
           <tr className="xl:table-row table-row lg:hidden ">
             <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
             <td className="border border-[#FFFFFF26]  py-20"></td>
-            <td className="border border-[#FFFFFF26] py-20"></td>
-            <td className="border border-[#FFFFFF26] py-20"></td>
+            <td className="border border-[#FFFFFF26]  hidden lg:py-20 lg:table-cell "></td>
+          <td className="border border-[#FFFFFF26] hidden lg:py-20  lg:table-cell"></td>
             <td className="border border-[#FFFFFF26] py-10 border-r-transparent"></td>
           </tr>
           <tr className="md:hidden table-row lg:table-row">
             <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>
-            <td className="border border-[#FFFFFF26] py-20 "></td>
-            <td className="border border-[#FFFFFF26] py-20  "></td>
-            <td className="border border-[#FFFFFF26] py-20  "></td>
+            <td className="border border-[#FFFFFF26] py-20"></td>
+            <td className="border border-[#FFFFFF26]  hidden lg:py-20 lg:table-cell "></td>
+          <td className="border border-[#FFFFFF26] hidden lg:py-20  lg:table-cell"></td>
             <td className="border border-[#FFFFFF26] py-10  border-r-transparent"></td>
           </tr>
         </table>
