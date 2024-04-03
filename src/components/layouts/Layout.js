@@ -62,8 +62,8 @@ const Layout = () => {
           bring them to life and ship to customers after sales!
         </p>
         <p className="flex lg:flex-row flex-col lg:gap-[20px] gap-[10px] mt-[20px] lg:mt-[50px] text-[10px]  overflow-hidden  lg:text-[20px] font-[200]">
-          <Link to="#joinwaitlist" smooth>
-            <button className="lg:w-[230px] w-[180px]  text-[17px] transition-transform duration-300 hover:scale-110 flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
+          <Link to="#joinwaitlist" smooth className="overflow-y-hidden">
+            <button className="lg:w-[230px] w-[180px]  text-[17px] overflow-hidden transition-transform duration-300 hover:scale-110 flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
               Join Waitlist <FiArrowRight />
             </button>
           </Link>
@@ -88,7 +88,11 @@ const Layout = () => {
         </span>
 
         <span>
-          <img src={Boy2} alt="" className="w-[130px]" />
+          <img
+            src={Boy2}
+            alt=""
+            className="xl:w-[130px] lg:w-[100px] md:w-[80px] w-[45px]"
+          />
         </span>
         <span>
           <img src={girl4} alt="" />

@@ -20,7 +20,7 @@ const Layout5 = () => {
     >
       <div className="flex lg:flex-row px-[20px] md:flex-row md:justify-center md:items-center md:gap-[30px] flex-col lg:justify-center lg:items-center lg:gap-[100px]">
         <div data-aos="fade-down">
-          <p className=" w-[211px] md:w-[300px] lg:w-[527px] font-[400] pb-[20px]">
+          <p className=" w-[230px] md:w-[300px] lg:w-[527px] font-[400] pb-[20px]">
             <img src={JoinAsPartner} alt="join partner" />
           </p>
           <p className="lg:text-[20px] text-[15px] font-[200]">
@@ -72,11 +72,10 @@ const Layout5 = () => {
             </li>
           </ul>
           <Link to="#joinwaitlist" smooth className="">
-          <button className="border hover:bg-[#504f4f7b] hover:opacity-90 hover:border-none z-[9999] transition-transform duration-300 hover:scale-110 rounded-[5px] font-[200] w-[207.53px] h-[57.32px]">
-            Join Waitlist
-          </button>
+            <button className="border hover:bg-[#504f4f7b] hover:opacity-90 hover:border-none z-[9999] transition-transform duration-300 hover:scale-110 rounded-[5px] font-[200] w-[207.53px] h-[57.32px]">
+              Join Waitlist
+            </button>
           </Link>
-         
         </div>
       </div>
 

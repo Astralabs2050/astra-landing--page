@@ -54,7 +54,7 @@ const Layout4 = () => {
         </tr>
       </table>
 
-      <div className=" lg:pb-[120px] pb-[50px] z-[9999]  text-white w-[100%] md:pt-[70px] md:px-[30px] lg:px-0 flex flex-col lg:justify-center lg:items-center lg:pt-[20px]">
+      <div className=" lg:pb-[130px] pb-[50px] z-[9999]  text-white w-[100%] md:pt-[70px] md:px-[30px] lg:px-0 flex flex-col lg:justify-center lg:items-center lg:pt-[20px]">
         <div className="z-[999] flex lg:flex-row  md:flex-row  flex-col lg:gap-[100px] gap-[30px] lg:px-[120px] lg:mt-[10px] lg:justify-center lg:item-center ">
           <div
             data-aos="fade-left"
