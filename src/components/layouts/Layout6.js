@@ -6,7 +6,7 @@ import { joinwaitlist } from "../../asset/textImg";
 import { useForm } from "@formspree/react";
 
 const Layout6 = () => {
-  const [state, handleSubmit] = useForm("mpzvpolb");
+  const [state, handleSubmit] = useForm("xvoewekj");
   if (state.succeeded) {
     setTimeout(() => {
       return <p>Thanks for getting in touch!</p>;
