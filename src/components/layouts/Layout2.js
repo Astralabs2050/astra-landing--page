@@ -54,7 +54,7 @@ const Layout2 = () => {
           <img
             src={techLogo}
             alt=""
-            className="lg:w-[75.89px] text-[white] w-[44.50px]"
+            className="lg:w-[75.89px] text-[white] w-[43.38px]"
           />
         </span>
 
