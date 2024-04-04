@@ -11,7 +11,6 @@ export default function LandingPage() {
   return (
     <div>
 
-      
       <Layout />
       <Layout2 />
       <Layout3 />
