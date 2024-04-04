@@ -90,7 +90,7 @@ const Layout = () => {
         <span>
           <img
             src={Boy2}
-            alt=""
+            alt="boy2"
             className="xl:w-[130px] lg:w-[100px] md:w-[80px] w-[45px]"
           />
         </span>
