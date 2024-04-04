@@ -95,19 +95,19 @@ const Layout = () => {
           />
         </span>
         <span>
-          <img src={girl4} alt="" />
+          <img src={girl4} alt="girl4" />
         </span>
         <span>
-          <img src={girl5} alt="" />
+          <img src={girl5} alt="girl5" />
         </span>
         <span>
-          <img src={girl6} alt="" />
+          <img src={girl6} alt="girl6" />
         </span>
 
         <span>
           <img src={Boy1} alt="" />
         </span>
-        
+
         <span>
           <img src={girl7} alt="" />
         </span>
