@@ -11,6 +11,7 @@ const Slide = ({ slideImage, text1, text2 }) => {
         </div>
       </div>
     </div>
+    
   );
 };
 
