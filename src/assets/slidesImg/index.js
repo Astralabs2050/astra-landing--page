@@ -5,3 +5,4 @@ import slide4 from "./slide4.png";
 import slide5 from "./slide5.png";
 
 export { slide1, slide2, slide3, slide4, slide5 };
+
