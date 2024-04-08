@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from "react";
 import { FiSend } from "react-icons/fi";
 import { FaTwitter } from "react-icons/fa6";
 import { BsDiscord } from "react-icons/bs";
@@ -6,7 +7,7 @@ import { FaAngleUp } from "react-icons/fa6";
 import { ASTRANEW } from "../../asset/logo";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import React, { useEffect, useState } from "react";
+
 
 const Layout8 = () => {
   useEffect(() => {
