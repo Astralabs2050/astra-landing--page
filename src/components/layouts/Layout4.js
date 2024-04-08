@@ -15,7 +15,7 @@ const Layout4 = () => {
     });
   }, []);
   return (
-    <div id="bg4" className="relative w-[100%] max-h-[100%] overflow-y-hidden">
+    <div  className="relative w-[100%] max-h-[100%] overflow-y-hidden bg-bg4 bg-cover">
       <table className="table-auto z-[1] border-collapse overflow-y-hidden border-l-black border-[0.5px] border-[#A1A1A1] w-full absolute top-[15px] lg:top-[30px]">
         <tr>
           <td className="border border-[#FFFFFF26] py-10 border-l-transparent"></td>

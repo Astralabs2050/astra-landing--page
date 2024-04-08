@@ -24,8 +24,8 @@ const Layout7 = () => {
   }, []);
   return (
     <div
-      id="bg1"
-      className={`pt-[100px] lg:pb-[150px] pb-[80px] bg-contain flex flex-col justify-center items-center text-white`}
+    
+      className={`pt-[100px] lg:pb-[150px] pb-[80px]  flex flex-col justify-center items-center text-white bg-bg1 bg-cover z-[-1]`}
     >
       <div
         data-aos="fade-left"

@@ -45,9 +45,9 @@ const AllSlides = () => {
   };
   return (
     <div
-      id="bg2"
+     
       data-aos="fade-left"
-      className=" flex flex-col items-center justify-center text-white py-[50px] lg:py-[100px]"
+      className="bg-bg2 bg-cover z-[-1] flex flex-col items-center justify-center text-white py-[50px] lg:py-[100px]"
     >
       <p className="w-[162px] lg:w-[263px] mb-[30px]">
         <img src={pastwork} alt="Past" />

@@ -39,8 +39,8 @@ const Layout8 = () => {
   return (
     <>
       <div
-        id="bg7"
-        className="bg-black w-[100%] opacity-95 text-white flex lg:flex-row flex-col lg:justify-evenly gap-[50px] lg:items-center px-[20px] lg:h-[267px] py-[40px]"
+        
+        className="bg-black w-[100%] bg-bg7 bg-cover opacity-95 text-white flex lg:flex-row flex-col lg:justify-evenly gap-[50px] lg:items-center px-[20px] lg:h-[267px] py-[40px]"
       >
         <div data-aos="fade-left" className="flex flex-col gap-[50px]">
           <img src={ASTRANEW} alt="" className="lg:w-[180px] w-[130px]" />

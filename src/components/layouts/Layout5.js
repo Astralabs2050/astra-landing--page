@@ -15,8 +15,8 @@ const Layout5 = () => {
   }, []);
   return (
     <div
-      id="bg4"
-      className="lg:pt-[150px] pt-[80px] lg:pb-[120px] text-white flex flex-col justify-center items-center"
+     
+      className="lg:pt-[150px] pt-[80px] lg:pb-[120px] text-white flex flex-col justify-center items-center bg-bg3 bg-cover"
     >
       <div className="flex lg:flex-row px-[20px] md:flex-row md:justify-center md:items-center md:gap-[30px] flex-col lg:justify-center lg:items-center lg:gap-[100px]">
         <div data-aos="fade-down">

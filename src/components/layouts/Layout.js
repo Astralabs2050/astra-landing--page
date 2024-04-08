@@ -30,8 +30,8 @@ const Layout = () => {
   }, []);
   return (
     <div
-      id="bg1"
-      className={`flex z-[-1] lg:gap-4 gap-[18px] overflow-y-hidden text-white pt-[50px] lg:pt-[100px] w-[100%] justify-center px-[20px]  overflow-auto lg:px-[40px]  pb-[50px] lg:pb-[300px]`}
+    
+      className={`flex z-[-1] bg-bg1 bg-cover lg:gap-4 gap-[18px] overflow-y-hidden text-white pt-[50px] lg:pt-[100px] w-[100%] justify-center px-[20px]  overflow-auto lg:px-[40px]  pb-[50px] lg:pb-[300px]`}
     >
       <div
         data-aos="fade-left"
