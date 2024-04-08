@@ -19,7 +19,7 @@ import {
 import { ASTRANEW } from "../../asset/logo";
 
 import { BringyourFashionIdeastoLife } from "../../asset/textImg";
-import { Glitter } from "../../assets";
+import { Glitter } from "../../asset";
 
 const Layout = () => {
   useEffect(() => {

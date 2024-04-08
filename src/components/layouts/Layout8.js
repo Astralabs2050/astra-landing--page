@@ -89,7 +89,7 @@ const Layout8 = () => {
           <p>&copy; 2024 Astra.</p>
         </div>
         <div
-          className={`fixed bottom-[250px] right-3 lg:z-[9999] lg:right-[100px] flex flex-col items-center gap-[5px] text-[#858585] ${
+          className={`fixed lg:bottom-[250px] bottom-[430px] right-3 lg:z-[9999] lg:right-[100px] flex flex-col items-center gap-[5px] text-[#858585] ${
             showButton ? "block" : "hidden"
           }`}
         >

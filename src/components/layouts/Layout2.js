@@ -10,9 +10,9 @@ import {
   TechNationLogo,
 } from "../../asset/logo/index";
 import { social1 } from "../../asset";
-import { techLogo } from "../../assets/logo/index";
+import { techLogo } from "../../asset/logo/index";
 import { one } from "../../asset";
-import { UseGenerativeAItocreate2 } from "../../assets/text-image";
+import { UseGenerativeAItocreate2 } from "../../asset/textImg";
 import { howitworks } from "../../asset/textImg";
 import { UseGenerativeAI } from "../../asset/textImg";
 

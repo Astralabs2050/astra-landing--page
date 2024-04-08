@@ -8,7 +8,7 @@ import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { pastwork } from "../../assets/text-image";
+import { pastwork } from "../../asset/textImg";
 
 const slides = [
   { id: 1, content: <Slide1 /> },

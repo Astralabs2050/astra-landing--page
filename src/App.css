@@ -6,33 +6,33 @@
 }
 
 #bg1 {
-  background-image: url("../src/assets/BACKGROUND-BLACK1.png");
+  background-image: url("../src/asset/BACKGROUND-BLACK1.png");
   background-size: cover;
   z-index: -1;
 }
 #bg2 {
-  background-image: url("../src/assets/BACKGROUND-BLACK2.png");
+  background-image: url("../src/asset/BACKGROUND-BLACK2.png");
   background-size: cover;
   z-index: -1;
 }
 #bg3 {
-  background-image: url("../src/assets/BACKGROUND-BLACK3.png");
+  background-image: url("../src/asset/BACKGROUND-BLACK3.png");
   background-size: cover;
   z-index: -1;
 }
 #bg4 {
-  background-image: url("../src/assets/BACKGROUND-BLACK4.png");
+  background-image: url("../src/asset/BACKGROUND-BLACK4.png");
   background-size: cover;
 }
 #bg5 {
-  background-image: url("../src/assets/BACKGROUND-BLACK5.png");
+  background-image: url("../src/asset/BACKGROUND-BLACK5.png");
   background-size: cover;
 }
 #bg6 {
-  background-image: url("../src/assets/BACKGROUND-BLACK6.png");
+  background-image: url("../src/asset/BACKGROUND-BLACK6.png");
   background-size: cover;
 }
 #bg7 {
-  background-image: url("../src/assets/BACKGROUND-BLACK7.png");
+  background-image: url("../src/asset/BACKGROUND-BLACK7.png");
   background-size: cover;
 }
