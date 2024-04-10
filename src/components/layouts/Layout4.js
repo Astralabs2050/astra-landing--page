@@ -92,7 +92,7 @@ const Layout4 = () => {
                 smooth
                 className="z-[9999]  overflow-y-hidden "
               >
-                <button className="transition-transform duration-500 hover:scale-110 z-[9999] lg:w-[230px] w-[195px] font-[200] text-[17px] flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
+                <button className="transition-transform duration-500 hover:scale-110 z-[9999] lg:w-[230px]  w-[175px] text-[13px] lg:text-[18px] font-[200] flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
                   Join Waitlist <FiArrowRight />
                 </button>
               </Link>
