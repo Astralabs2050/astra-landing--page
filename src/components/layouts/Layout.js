@@ -86,11 +86,11 @@ const Layout = () => {
           <img src={girl3} alt="" />
         </span>
 
-        <span>
+        <span className="relative lg:left-[14px] left-[4px]">
           <img
             src={Boy2}
             alt="boy2"
-            className="xl:w-[130px] lg:w-[100px] md:w-[80px] w-[45px]"
+            className="xl:w-[130px] lg:w-[100px] md:w-[80px] w-[38.5px]"
           />
         </span>
         <span>
