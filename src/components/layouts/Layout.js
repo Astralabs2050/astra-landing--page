@@ -60,9 +60,9 @@ const Layout = () => {
           Generate unique fashion designs using AI, find makers near you to
           bring them to life and ship to customers after sales!
         </p>
-        <p className="flex lg:flex-row flex-col lg:gap-[20px] gap-[10px] mt-[20px] lg:mt-[50px] text-[10px]  overflow-hidden  lg:text-[20px] font-[200]">
+        <p className="flex lg:flex-row flex-col lg:gap-[20px] gap-[10px] mt-[20px] lg:mt-[50px] text-[10px]  overflow-hidden  lg:text-[20px] lg:font-[200] font-[300]">
           <Link to="#joinwaitlist" smooth className="overflow-y-hidden">
-            <button className="lg:w-[230px] w-[175px] text-[13px] lg:text-[18px] overflow-hidden transition-transform duration-300 hover:scale-110 flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
+            <button className="lg:w-[230px] w-[175px] text-[15px] lg:text-[18px] overflow-hidden transition-transform duration-300 hover:scale-110 flex items-center gap-[10px] justify-center lg:h-[54px] h-[40px] rounded-[5px]  bg-white border-[0.5px] text-black">
               Join Waitlist <FiArrowRight />
             </button>
           </Link>
