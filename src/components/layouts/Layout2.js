@@ -8,6 +8,7 @@ import {
   Metalogo,
   Nvidea,
   TechNationLogo,
+  awsstartups,
 } from "../../asset/logo/index";
 import { social1 } from "../../asset";
 import { techLogo } from "../../asset/logo/index";
@@ -24,10 +25,7 @@ const Layout2 = () => {
     });
   }, []);
   return (
-    <div
-     
-      className="relative bg-bg2 bg-cover  overflow-y-hidden lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]"
-    >
+    <div className="relative bg-bg2 bg-cover  overflow-y-hidden lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]">
       <p className="lg:text-[35px] z-[9999] md:top-[700px] md:text-[30px] lg:hidden xl:top-[-90px] lg:top-[870px] top-[430px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
         {" "}
         Creating a phygital fashion OS for design, sales, and manufacturing,
@@ -35,7 +33,7 @@ const Layout2 = () => {
       </p>
       <div
         data-aos="fade-down"
-        className="flex flex-wrap  md:mt-[100px] md:gap-[35px] items-center justify-center gap-[30px] lg:gap-[50px] px-[20px] mt-[40px] lg:mt-[180px]  relative lg:top-[-140px]"
+        className="flex flex-wrap lg:w-[779.51px]  md:mt-[100px] md:gap-[35px] items-center justify-center gap-[25px] lg:gap-[50px] px-[20px] mt-[40px] lg:mt-[180px]  relative lg:top-[-140px]"
       >
         <span>
           <img src={Metalogo} alt="" className="lg:w-[156.3px] w-[89.35px]" />
@@ -47,7 +45,7 @@ const Layout2 = () => {
           <img
             src={TechNationLogo}
             alt=""
-            className="lg:w-[220.02px] w-[125.78px]"
+            className="lg:w-[224.91px] w-[128px]"
           />
         </span>
         <span className="text-[white]">
@@ -59,10 +57,17 @@ const Layout2 = () => {
         </span>
 
         <span>
-          <img src={Nvidea} alt="" className="lg:w-[173.68px] w-[99.26px]" />
+          <img src={FrameUni} alt="" className="lg:w-[155.7px] w-[89.01px]" />
         </span>
         <span>
-          <img src={FrameUni} alt="" className="lg:w-[155.7px] w-[89.01px]" />
+          <img
+            src={awsstartups}
+            alt=""
+            className="lg:w-[155.7px] w-[83.3px]"
+          />
+        </span>
+        <span>
+          <img src={Nvidea} alt="" className="lg:w-[173.68px] w-[99.26px]" />
         </span>
       </div>
       {/* second */}{" "}

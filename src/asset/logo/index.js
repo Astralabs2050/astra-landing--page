@@ -2,7 +2,8 @@ import KPMGlogo from "./KPMG logo 1.png";
 import Metalogo from "./Meta logo 1.png";
 import Nvidea from "./Nvidea 1.png";
 import techLogo from "./tech1.png";
-import TechNationLogo from "./Tech Nation Logo 1.png";
+import TechNationLogo from "./colorin.png";
+import awsstartups from "./aws startups 1.png"
 import image1 from "./image1.png";
 import image2 from "./image2.png";
 import image3 from "./image3.png";
@@ -23,6 +24,7 @@ export {
   TechNationLogo,
   FrameUni,
   ASTRANEW,
+  awsstartups,
   image1,
   image2,
   image3,
