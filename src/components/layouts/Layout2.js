@@ -75,7 +75,7 @@ const Layout2 = () => {
         <img src={howitworks} alt="" />
       </p>
       <div className="">
-        <table className="table-auto z-[1] border-collapse border-[0.5px] overflow-y-auto border-[#FFFFFF26] w-full absolute overflow-hidden top-[370px] lg:top-[566px] xl:top-[450px]">
+        <table className="table-auto z-[1] border-collapse border-[0.5px] overflow-y-auto border-[#FFFFFF26] w-full absolute overflow-hidden md:top-[440px] top-[370px] lg:top-[586px] xl:top-[570px]">
           <tr>
             <td className="border border-[#FFFFFF26]  py-10 border-l-transparent"></td>
             <td className="border border-[#FFFFFF26]  py-20 "></td>
