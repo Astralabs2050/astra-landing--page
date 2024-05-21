@@ -27,12 +27,12 @@ const Layout5 = () => {
   return (
     <div className="lg:pt-[150px] pt-[80px] lg:pb-[120px] text-white flex flex-col justify-center items-center bg-bg4 bg-cover">
       <div className="flex lg:flex-col px-[20px] md:justify-center md:items-center md:gap-[30px] flex-col lg:justify-center lg:items-center lg:gap-[50px]">
-        <p className="lg:w-[292px] w-[193px] font-[400] lg:mt-[0px] mt-[70px] lg:mb-[50px] mb-[50px] justify-center m-auto flex">
+        <p className="lg:w-[292px] w-[193px] font-[400] lg:mt-[0px] mt-[70px] lg:mb-[30px] mb-[50px] justify-center m-auto flex">
           <img src={AsSeenOn} alt="as seen" />
         </p>
         <div
           data-aos="fade-left"
-          className="flex w-[90%] lg:w-[1047.86px] lg:h-[259px] flex-wrap gap-[15px] lg:gap-[40px] justify-center items-center"
+          className="flex w-[90%] lg:w-[1047.86px] lg:h-[259px] flex-wrap gap-[15px] lg:gap-[60px] justify-center items-center"
         >
           <span>
             <img src={image1} alt="" className="w-[131.97px] lg:w-[213px]" />
@@ -44,13 +44,13 @@ const Layout5 = () => {
             <img src={image3} alt="" className="w-[69.79px] lg:w-[128.86px]" />
           </span>
           <span>
-            <img src={image6} alt="" className="w-[93.15px] lg:w-[217px]" />
-          </span>
-          <span>
             <img src={image4} alt="" className="w-[129.46px] lg:w-[249px]" />
           </span>
           <span>
             <img src={image5} alt="" className="w-[105.3px] lg:w-[153px]" />
+          </span>
+          <span>
+            <img src={image6} alt="" className="w-[93.15px] lg:w-[217px]" />
           </span>
 
           <span>
@@ -68,31 +68,31 @@ const Layout5 = () => {
       {/* second */}
       <Layout6 />
       {/* next */}
-      <div className="lg:mt-[200px] mt-[100px] px-[30px]">
+      <div className="lg:mt-[200px] mt-[100px] px-[30px] lg:mb-0 mb-[30px]">
         <img
           src={whitepaper}
           alt=""
           className="flex justify-center text-center m-auto mb-[20px]"
         />
 
-        <p className="w-[498px] text-[20px] font-[300] flex justify-center text-center m-auto">
+        <p className="w-[498px] font-[300] lg:text-[20px] text-[16px] flex justify-center text-center m-auto">
           The Astra token incentivises visits to stores with our VR booths and
           usage of our AI Design Co-pilot
         </p>
-        <div className="mt-[100px] flex lg:flex-row flex-col-reverse items-center lg:gap-[150px] gap-[40px] ">
+        <div className="lg:mt-[100px] mt-[50px] flex lg:flex-row flex-col-reverse items-center lg:gap-[190px] gap-[40px] ">
           <div className="flex flex-col lg:gap-[80px] gap-[40px]">
             <div className="flex flex-col gap-[15px] justify-center m-auto">
               {" "}
               <p className="lg:text-[40px] text-[25px]">Ways to earn tokens</p>
-              <ul className="font-[200] flex flex-col gap-[15px] items-center lg:items-start">
+              <ul className="font-[200] flex flex-col gap-[15px]  items-center lg:items-start">
                 <li className="flex items-center">
                   {" "}
-                  <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>In store
-                  Try-ons With Astra
+                  <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>
+                  In store Try-ons With Astra
                 </li>
                 <li className="flex items-center">
-                  <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>Sharing Images
-                  to social Media
+                  <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>
+                  Sharing Images to social Media
                 </li>
               </ul>
             </div>
@@ -104,12 +104,12 @@ const Layout5 = () => {
               </p>
               <ul className="font-[200] flex flex-col gap-[15px] lg:items-start items-center">
                 <li className="flex items-center">
-                  <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>Generating
-                  Designs with AI{" "}
+                  <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>
+                  Generating Designs with AI{" "}
                 </li>
                 <li className="flex items-center">
-                  <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>Pre-ordering
-                  designs From Brands
+                  <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>
+                  Pre-ordering designs From Brands
                 </li>
               </ul>
             </div>
