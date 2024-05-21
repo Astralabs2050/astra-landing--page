@@ -55,7 +55,7 @@ const Layout4 = () => {
       </table>
 
       <div className=" lg:pb-[130px] pb-[50px] z-[9999]  text-white w-[100%] md:pt-[70px] md:px-[30px] lg:px-0 flex flex-col lg:justify-center lg:items-center lg:pt-[20px]">
-        <div className="z-[999] flex lg:flex-row  md:flex-row  flex-col lg:gap-[100px] md:gap-[0px] gap-[30px] lg:px-[120px] lg:mt-[10px] lg:justify-center lg:item-center ">
+        <div className="z-[999] flex lg:flex-row  md:flex-row  flex-col lg:gap-[50px] md:gap-[0px] gap-[30px] lg:px-[120px] lg:mt-[10px] lg:justify-center lg:item-center ">
           <div
             data-aos="fade-left"
             className="lg:w-[50%] w-[80%] lg:pt-[100px] flex flex-col gap-[20px] pl-[20px]"
@@ -72,7 +72,7 @@ const Layout4 = () => {
             data-aos="fade-right"
             className="px-[20px] lg:pt-[150px] md:pt-[50px] pt-0 overflow-y-hidden md:w-[75%] lg:w-[50%]"
           >
-            <div className="lg:w-[506px] md:w-[100%]">
+            <div className="lg:w-[506px] md:w-[100%] lg:mt-[40px]">
               <img src={social11} alt="" className="" />
             </div>
 

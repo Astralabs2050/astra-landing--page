@@ -32,7 +32,7 @@ const Layout2 = () => {
       </p>
       <div
         data-aos="fade-down"
-        className="flex flex-wrap lg:w-[779.51px]  md:mt-[60px] md:gap-[35px] items-center justify-center gap-[25px] lg:gap-[50px] px-[20px] mt-[40px] lg:mt-[150px]  relative lg:top-[-140px]"
+        className="flex flex-wrap lg:w-[779.51px]  md:mt-[60px] md:gap-[35px] items-center justify-center gap-[25px] lg:gap-[55px] px-[20px] mt-[40px] lg:mt-[130px]  relative lg:top-[-140px]"
       >
         <span>
           <img src={Metalogo} alt="" className="lg:w-[156.3px] w-[89.35px]" />
@@ -69,7 +69,7 @@ const Layout2 = () => {
       <p className="lg:mt-[60px] mt-[80px] md:mt-[100px] md:w-[200px] w-[165px] lg:w-[235px]">
         <img src={howitworks} alt="" />
       </p>
-      <p className="lg:text-[23px] text-[15px]  mt-[15px] font-[300]">
+      <p className="lg:text-[23px] text-[15px]  mt-[15px] font-[200]">
         Reinvent your in-store experience with Astra!{" "}
       </p>
       <div className="">
@@ -104,7 +104,7 @@ const Layout2 = () => {
           </tr>
         </table>
 
-        <div className="flex lg:flex-row lg:items-center z-[9999] md:flex-row flex-col gap-[30px] lg:gap-[60px] lg:px-[150px] mt-[20px] lg:mt-[80px]">
+        <div className="flex lg:flex-row lg:items-center z-[9999] md:flex-row flex-col gap-[30px] lg:gap-[90px] lg:px-[150px] mt-[20px] lg:mt-[80px]">
           <div
             data-aos="fade-left"
             className="lg:w-[55%] w-[70%]  pl-[30px] flex flex-col gap-[10px] md:w-[50%] lg:gap-[20px]  *:overflow-y-hidden"

@@ -55,7 +55,11 @@ const Layout6 = () => {
           data-aos="fade-down"
           className="flex flex-col gap-[40px] px-[20px] w-[100%] lg:w-[461px]"
         >
-          <img src={Glitter} alt="glitter" className="w-[50.61px] lg:m-0 flex m-auto" />
+          <img
+            src={Glitter}
+            alt="glitter"
+            className="w-[50.61px] lg:m-0 flex m-auto"
+          />
           <p className="lg:w-[297px] w-[180px] lg:flex hidden">
             <img src={joinwaitlist} alt="" />
           </p>
@@ -93,18 +97,14 @@ const Layout6 = () => {
             <div>
               <label>Store Location:</label>
               <br />
-              <select
+              <input
                 required
                 name="Location"
                 id="Location"
+                type="text"
                 onChange={handleOnChange}
                 className="h-[40px] bg-[#D9D9D91A] text-[white] w-full outline-none px-[10px] mt-[5px] rounded-[5px] font-[200]"
-              >
-                <option>Select Business Type</option>
-                <option>Fashion Creative</option>
-                <option>Manufacturer</option>
-                <option>3D Studio</option>
-              </select>
+              />
             </div>
             <div>
               <label>Website/Social Media</label>

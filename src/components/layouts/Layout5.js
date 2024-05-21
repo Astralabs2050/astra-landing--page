@@ -32,7 +32,7 @@ const Layout5 = () => {
         </p>
         <div
           data-aos="fade-left"
-          className="flex w-[90%] lg:w-[1048px] lg:h-[259px] flex-wrap gap-[15px] lg:gap-[40px] justify-center items-center"
+          className="flex w-[90%] lg:w-[1047.86px] lg:h-[259px] flex-wrap gap-[15px] lg:gap-[40px] justify-center items-center"
         >
           <span>
             <img src={image1} alt="" className="w-[131.97px] lg:w-[213px]" />
@@ -67,7 +67,8 @@ const Layout5 = () => {
 
       {/* second */}
       <Layout6 />
-      <div className="mt-[200px] px-[30px]">
+      {/* next */}
+      <div className="lg:mt-[200px] mt-[100px] px-[30px]">
         <img
           src={whitepaper}
           alt=""
@@ -84,12 +85,12 @@ const Layout5 = () => {
               {" "}
               <p className="lg:text-[40px] text-[25px]">Ways to earn tokens</p>
               <ul className="font-[200] flex flex-col gap-[15px] items-center lg:items-start">
-                <li>
+                <li className="flex items-center">
                   {" "}
                   <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>In store
                   Try-ons With Astra
                 </li>
-                <li>
+                <li className="flex items-center">
                   <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>Sharing Images
                   to social Media
                 </li>
@@ -102,11 +103,11 @@ const Layout5 = () => {
                 Ways to spend tokens
               </p>
               <ul className="font-[200] flex flex-col gap-[15px] lg:items-start items-center">
-                <li>
+                <li className="flex items-center">
                   <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>Generating
                   Designs with AI{" "}
                 </li>
-                <li>
+                <li className="flex items-center">
                   <i className="fas fa-check text-white mr-2 overflow-y-hidden"></i>Pre-ordering
                   designs From Brands
                 </li>

@@ -44,7 +44,7 @@ const Layout3 = () => {
           <td className="border border-[#FFFFFF26]  md:py-8 py-10  border-r-transparent"></td>
         </tr>
       </table>
-      <div className="z-[9999] *:m-auto flex flex-col-reverse *:overflow-y-hidden px-[20px] lg:flex-row md:flex-row *:justify-center items-center md:px-[30px] md:gap-[40px] md:m-auto gap-[30px] lg:px-[120px] xl:pl-[160px] lg:gap-[140px] lg:pt-[50px] pt-[10px] lg:pb-[200px] pb-[90px] text-white w-[100%]">
+      <div className="z-[9999] *:m-auto flex flex-col-reverse *:overflow-y-hidden px-[20px] lg:flex-row md:flex-row *:justify-center items-center md:px-[30px] md:gap-[40px] md:m-auto gap-[30px] lg:px-[120px] xl:pl-[160px] lg:gap-[80px] lg:pt-[50px] pt-[10px] lg:pb-[200px] pb-[90px] text-white w-[100%]">
         <div
           data-aos="fade-left"
           className="z-[9999] lg:w-[503px] lg:px-[10px] md:pt-[120px] xl:px-0  *:overflow-y-hidden w-full flex justify-center md:w-[100%] md:px-0"

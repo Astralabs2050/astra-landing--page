@@ -18,7 +18,7 @@ const Layout = () => {
   }, []);
   return (
     <div className=" bg-bg1 bg-cover">
-      <p className="lg:pb-[40px] lg:pl-[140px] mt-[50px] flex lg:justify-start justify-center">
+      <p className="lg:pb-[40px] lg:pl-[120px] mt-[50px] flex lg:justify-start justify-center">
         <img
           src={ASTRANEW}
           alt=""
@@ -26,17 +26,17 @@ const Layout = () => {
         />
       </p>
       <div
-        className={`flex lg:flex-row flex-col lg:gap-4 gap-[18px] overflow-y-hidden text-white pt-[50px] lg:pt-[100px] w-[100%]  items-center justify-center px-[20px]  overflow-auto lg:px-[40px]  pb-[50px] lg:pb-[300px]`}
+        className={`flex lg:flex-row flex-col lg:gap-4 gap-[18px] overflow-y-hidden text-white pt-[50px] lg:pt-[100px] w-[100%] items-center justify-center lg:px-[30px] px-[20px] overflow-auto pb-[50px] lg:pb-[300px]`}
       >
         <div
           data-aos="fade-left"
-          className=" font-[400] w-[100%] md:flex md:flex-col md:gap-[40px] lg:gap-0 lg:w-[50%] lg:px-[50px]"
+          className=" font-[400] w-[100%] md:flex md:flex-col md:gap-[40px] lg:gap-0 lg:w-[50%]"
         >
           <div className="flex items-end relative lg:pb-0 md:w-[600px] gap-[8px] lg:m-0 m-auto w-[300px] overflow-y-hidden">
             <img
               src={BringyourFashionIdeastoLife}
               alt=""
-              className="hidden lg:flex"
+              className="hidden lg:flex "
             />
             <img
               src={Reinventing}
@@ -64,11 +64,11 @@ const Layout = () => {
 
         <div
           data-aos="fade-right"
-          className="justify-center items-center w-[100%] md:px-[50px] lg:px-0 lg:w-[612.9px]"
+          className="justify-center items-center w-[100%] md:px-[50px] lg:px-0 lg:w-[542.9px]"
         >
           <img src={FashionDistrictFestival23} alt="" />
         </div>
-        <p className="lg:text-[35px] z-[9999] md:top-[700px] md:text-[30px] lg:absolute lg:flex xl:top-[1020px] lg:top-[840px] hidden top-[430px] text-center text-[15px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
+        <p className="lg:text-[35px] z-[9999] md:top-[700px] md:text-[30px] lg:absolute lg:flex xl:top-[950px] lg:top-[840px] hidden top-[430px] text-center text-[15px] justify-center w-[867px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
           An in-store user experience that combines VR with Web3 and AI with
           grants & incubation from:
         </p>
