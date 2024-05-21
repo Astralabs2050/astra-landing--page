@@ -13,7 +13,6 @@ import {
 import { social1 } from "../../asset";
 import { techLogo } from "../../asset/logo/index";
 import { one } from "../../asset";
-import { UseGenerativeAItocreate2 } from "../../asset/textImg";
 import { howitworks } from "../../asset/textImg";
 import { UseGenerativeAI } from "../../asset/textImg";
 
@@ -28,12 +27,12 @@ const Layout2 = () => {
     <div className="relative bg-bg2 bg-cover  overflow-y-hidden lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]">
       <p className="lg:text-[35px] z-[9999] md:top-[700px] md:text-[30px] lg:hidden xl:top-[-90px] lg:top-[870px] top-[430px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
         {" "}
-        Creating a phygital fashion OS for design, sales, and manufacturing,
-        supported by grants and incubation from:
+        Using VR and AI to boost in-store traffic and enhance customer insights
+        for store managers.
       </p>
       <div
         data-aos="fade-down"
-        className="flex flex-wrap lg:w-[779.51px]  md:mt-[100px] md:gap-[35px] items-center justify-center gap-[25px] lg:gap-[50px] px-[20px] mt-[40px] lg:mt-[180px]  relative lg:top-[-140px]"
+        className="flex flex-wrap lg:w-[779.51px]  md:mt-[60px] md:gap-[35px] items-center justify-center gap-[25px] lg:gap-[50px] px-[20px] mt-[40px] lg:mt-[150px]  relative lg:top-[-140px]"
       >
         <span>
           <img src={Metalogo} alt="" className="lg:w-[156.3px] w-[89.35px]" />
@@ -60,22 +59,21 @@ const Layout2 = () => {
           <img src={FrameUni} alt="" className="lg:w-[155.7px] w-[89.01px]" />
         </span>
         <span>
-          <img
-            src={awsstartups}
-            alt=""
-            className="lg:w-[155.7px] w-[83.3px]"
-          />
+          <img src={awsstartups} alt="" className="lg:w-[155.7px] w-[83.3px]" />
         </span>
         <span>
           <img src={Nvidea} alt="" className="lg:w-[173.68px] w-[99.26px]" />
         </span>
       </div>
       {/* second */}{" "}
-      <p className="lg:mt-[60px] mt-[80px] md:mt-[100px] md:w-[200px] w-[135px] lg:w-[235px]">
+      <p className="lg:mt-[60px] mt-[80px] md:mt-[100px] md:w-[200px] w-[165px] lg:w-[235px]">
         <img src={howitworks} alt="" />
       </p>
+      <p className="lg:text-[23px] text-[15px]  mt-[15px] font-[300]">
+        Reinvent your in-store experience with Astra!{" "}
+      </p>
       <div className="">
-        <table className="table-auto z-[1] border-collapse border-[0.5px] overflow-y-auto border-[#FFFFFF26] w-full absolute overflow-hidden md:top-[440px] top-[370px] lg:top-[586px] xl:top-[570px]">
+        <table className="table-auto z-[1] border-collapse border-[0.5px] overflow-y-auto border-[#FFFFFF26] w-full absolute overflow-hidden md:top-[440px] top-[370px] lg:top-[586px] xl:top-[560px]">
           <tr>
             <td className="border border-[#FFFFFF26]  py-10 border-l-transparent"></td>
             <td className="border border-[#FFFFFF26]  py-20 "></td>
@@ -113,7 +111,7 @@ const Layout2 = () => {
           >
             <div className="">
               <div className=" relative top-[15px] hidden lg:flex  *:overflow-y-hidden lg:w-[75px] lg:h-[134px] w-[38px] min-h-[64px]">
-                <img src={one} alt="" className=" " />
+                <img src={one} alt="" className="" />
               </div>
               <p className=" hidden lg:flex">
                 <img
@@ -130,14 +128,10 @@ const Layout2 = () => {
 
             <p className="lg:hidden">
               <img
-                src={UseGenerativeAItocreate2}
+                src={UseGenerativeAI}
                 alt="text-mage"
-                className=" w-[360px] "
+                className=" w-[433px] "
               />
-            </p>
-            <p className="font-[100] lg:text-[20px] text-[15px]">
-              Generate unique designs and save them on the blockchain to show
-              ownership
             </p>
           </div>
           <div

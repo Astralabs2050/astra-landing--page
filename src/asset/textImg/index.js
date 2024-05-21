@@ -1,14 +1,17 @@
 import AsSeenOn from "./As Seen On.png";
-import BringyourFashionIdeastoLife from "./Bring your Fashion Ideas to Life.png";
-import CreateAjob from "./Create a job for available 3D Artists & Manufacturers.png";
+import BringyourFashionIdeastoLife from "./rein.svg";
+import CreateAjob from "./Reward users with tokens that unlock more experiences3.png";
 import howitworks from "./how it works.png";
 import JoinAsPartner from "./Join as a Partner.png";
-import joinwaitlist from "./join waitlist.png";
-import Listdesignforsale from "./List design for sale and ship to buyers after purchase.png";
+import joinwaitlist from "./Plans Available for.svg";
+import joinwaitlist2 from "./Plans Available for2.svg";
+import Listdesignforsale from "./cat3img.svg";
 import pastwork from "./pastwork.png";
 import pitchdeck from "./pitchdeck.png";
-import UseGenerativeAI from "./Use Generative AI to create unique fashion designs.png";
+import UseGenerativeAI from "./Show new designs in VR for try-ons & get data on preferences.png";
 import UseGenerativeAItocreate2 from "./UseGenerativeAItocreate2.png";
+import whitepaper from "./Whitepaper.svg";
+import Reinventing from "./Reinventing Retail With Virtual Reality2.png";
 
 export {
   AsSeenOn,
@@ -22,4 +25,7 @@ export {
   UseGenerativeAI,
   pastwork,
   UseGenerativeAItocreate2,
+  whitepaper,
+  joinwaitlist2,
+  Reinventing,
 };

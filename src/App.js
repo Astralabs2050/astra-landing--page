@@ -1,10 +1,24 @@
 import LandingPage from "./components/landingPage/LandingPage";
 import "./App.css";
 import { Helmet } from "react-helmet";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
     <div>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
       <Helmet>
         {" "}
         <meta charSet="utf-8" />
@@ -22,5 +36,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

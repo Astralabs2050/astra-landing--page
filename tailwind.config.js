@@ -13,6 +13,8 @@ module.exports = {
         'bg5': "url('../src/asset/BACKGROUND-BLACK5.png')",
         'bg6': "url('../src/asset/BACKGROUND-BLACK6.png')",
         'bg7': "url('../src/asset/BACKGROUND-BLACK7.png')",
+        'rectangle': "url('../src/asset/Rectangle 24022.svg')",
+
       }
     },
   },

@@ -1,38 +1,20 @@
-import girl1 from "./girl1-1.png";
-import girl2 from "./girl2-2.png";
-import girl3 from "./girl3-3.png";
-import girl4 from "./girl4-4.png";
-import girl5 from "./girl5-5.png";
-import girl6 from "./girl6-6.png";
-import girl7 from "./girl7-7.png";
-import girl8 from "./girl8-8.png";
-import girl9 from "./girl9-9.png";
-import Boy1 from "./Boy1-1.png";
-import Boy2 from "./Boy2-22.png";
-import Glitter from "./Glitter.png";
+import Glitter from "./astragroup.svg";
 import one from "./1.png";
 import two from "./2.png";
 import three from "./3.png";
-import social1 from "./social11.png";
-import social2 from "./social22.png";
+import social1 from "./cat1img.png";
+import social11 from "./social11.png";
+import social2 from "./Astra_Logo Light Bg.svg";
 import social3 from "./social33.png";
 import Frame1 from "./Frame1.png";
 import Frame2 from "./Frame2.png";
 import Frame3 from "./Frame3.png";
-import Frame4 from "./Frame4.png";
+import Frame4 from "./imgWT.svg";
+import FashionDistrictFestival23 from "./FashionDistrictFestival23-Digital-Studio-11 (1) 2.png";
+import Rectangle from "./Rectangle 24022.svg";
+import ASTRACOIN from "./ASTRACOIN 4.svg";
 
 export {
-  girl1,
-  girl2,
-  girl3,
-  girl4,
-  girl5,
-  girl6,
-  girl7,
-  girl8,
-  girl9,
-  Boy1,
-  Boy2,
   one,
   three,
   two,
@@ -44,4 +26,8 @@ export {
   social1,
   social2,
   social3,
+  social11,
+  Rectangle,
+  FashionDistrictFestival23,
+  ASTRACOIN,
 };
