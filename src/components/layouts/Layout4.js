@@ -76,8 +76,8 @@ const Layout4 = () => {
             <p className="lg:w-[122px] w-[62px] top-[30px] relative">
               <img src={three} alt="" />
             </p>
-            <p>
-              <img src={Listdesignforsale} alt="" />
+            <p className="lg:w-[693px] w-[374px]">
+              <img src={Listdesignforsale} alt="" className="lg:w-[693px] w-[374px]" />
             </p>
           </div>
           <div

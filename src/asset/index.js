@@ -10,7 +10,7 @@ import Frame1 from "./Frame1.png";
 import Frame2 from "./Frame2.png";
 import Frame3 from "./Frame3.png";
 import Frame4 from "./imgWT.svg";
-import FashionDistrictFestival23 from "./FashionDistrictFestival23-Digital-Studio-11 (1) 2.png";
+import FashionDistrictFestival23 from "./FashionDistrictFestival23-Digital-Studio-11 (1) 3.svg";
 import Rectangle from "./Rectangle 24022.svg";
 import ASTRACOIN from "./ASTRACOIN 4.svg";
 

@@ -63,8 +63,8 @@ const Layout3 = () => {
           <p className="lg:w-[122px] w-[61px] relative top-[35px]">
             <img src={two} alt="" />
           </p>
-          <p className="lg:w-[569px] md:w-[400px] w-[304px]">
-            <img src={CreateAjob} alt="text" />
+          <p className="lg:w-[569px] md:w-[400px] w-[374px]">
+            <img src={CreateAjob} alt="text" className="lg:w-[569px] md:w-[400px] w-[304px]" />
           </p>
         
         </div>
