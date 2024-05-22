@@ -44,6 +44,11 @@ const Layout3 = () => {
           <td className="border border-[#FFFFFF26]  md:py-8 py-10  border-r-transparent"></td>
         </tr>
       </table>
+
+
+
+      {/* comment */}
+
       <div className="z-[9999] *:m-auto flex flex-col-reverse *:overflow-y-hidden px-[20px] lg:flex-row md:flex-row *:justify-center items-center md:px-[30px] md:gap-[40px] md:m-auto gap-[30px] lg:px-[120px] xl:pl-[160px] lg:gap-[80px] lg:pt-[50px] pt-[10px] lg:pb-[200px] pb-[90px] text-white w-[100%]">
         <div
           data-aos="fade-left"
@@ -64,6 +69,8 @@ const Layout3 = () => {
         
         </div>
       </div>
+      {/* end */}
+     
     </div>
   );
 };

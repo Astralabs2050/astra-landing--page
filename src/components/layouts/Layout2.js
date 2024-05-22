@@ -113,7 +113,7 @@ const Layout2 = () => {
               <div className=" relative top-[15px] hidden lg:flex  *:overflow-y-hidden lg:w-[75px] lg:h-[134px] w-[38px] min-h-[64px]">
                 <img src={one} alt="" className="" />
               </div>
-              <p className=" hidden lg:flex">
+              <p className=" hidden lg:flex lg:w-[693px] w-[460px]">
                 <img
                   src={UseGenerativeAI}
                   alt="text-mage"
@@ -136,7 +136,7 @@ const Layout2 = () => {
           </div>
           <div
             data-aos="fade-right"
-            className="px-[20px] z-20 lg:w-[45%] md:w-[50%] overflow-y-hidden lg:pt-[100px] md:pt-[100px]"
+            className="px-[20px] z-20 lg:w-[503px] md:w-[50%] overflow-y-hidden lg:pt-[100px] md:pt-[100px]"
           >
             <img src={social1} alt="" className="" />
           </div>

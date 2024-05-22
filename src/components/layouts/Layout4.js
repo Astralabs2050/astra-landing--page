@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FiArrowRight } from "react-icons/fi";
+
 import { Listdesignforsale } from "../../asset/textImg";
 import { social11 } from "../../asset";
 import { three } from "../../asset";
-import { HashLink as Link } from "react-router-hash-link";
+
 
 import { AsSeenOn } from "../../asset/textImg";
 import {
@@ -82,9 +82,9 @@ const Layout4 = () => {
           </div>
           <div
             data-aos="fade-right"
-            className="px-[20px] lg:px-0  md:pt-[50px] pt-0 md:w-[75%] lg:w-[50%] lg:mt-[60px]"
+            className="px-[20px] lg:px-0  md:pt-[50px] pt-0 md:w-[75%] lg:w-[506.31px] lg:mt-[60px]"
           >
-            <img src={social11} alt="" className="lg:w-[506px] md:w-[100%] " />
+            <img src={social11} alt="" className="lg:w-[506.31px] md:w-[100%] " />
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@ const Layout4 = () => {
         </p>
         <div
           data-aos="fade-left"
-          className="flex w-[90%] lg:w-[1047.86px] lg:h-[259px] flex-wrap gap-[15px] lg:gap-[60px] justify-center items-center"
+          className="flex w-[90%] lg:w-[1047.86px] lg:min-h-[259px] flex-wrap gap-[15px] lg:gap-[60px] justify-center items-center"
         >
           <span>
             <img src={image1} alt="" className="w-[131.97px] lg:w-[213px]" />
