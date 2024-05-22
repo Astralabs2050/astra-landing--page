@@ -37,10 +37,10 @@ const Layout8 = () => {
   };
 
   return (
-    <>
+    <div className="bg-bg7 bg-cover relative w-[100%] bottom-0">
       <div
         
-        className="bg-black w-[100%] bg-bg7 bg-cover opacity-95 text-white flex lg:flex-row flex-col lg:justify-evenly gap-[50px] lg:items-center px-[20px] lg:h-[267px] py-[40px]"
+        className="bg-black w-[100%] inset-0 bg-opacity-60 text-white flex lg:flex-row flex-col lg:justify-evenly gap-[50px] lg:items-center px-[20px] lg:h-[267px] py-[40px]"
       >
         <div data-aos="fade-left" className="flex flex-col gap-[50px]">
           <img src={ASTRANEW} alt="" className="lg:w-[180px] w-[130px]" />
@@ -67,8 +67,8 @@ const Layout8 = () => {
           data-aos="fade-right"
           className="flex flex-col gap-[25px] lg:gap-[50px]"
         >
-          <p className="text-[17px] text-[#F5F9FC]">Socials</p>
-          <p className="flex gap-[30px] text-[#A1A1A1]  text-[20px]">
+          <p className="text-[17px] font-[200] text-[#F5F9FC]">Socials</p>
+          <p className="flex gap-[30px] text-[#A1A1A1]  text-[26.31px]">
             <a href="https://t.me/+u-FRCcleboA3MzA0">
               <BsDiscord />
             </a>
@@ -105,7 +105,7 @@ const Layout8 = () => {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

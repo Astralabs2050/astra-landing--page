@@ -24,7 +24,7 @@ const Layout2 = () => {
     });
   }, []);
   return (
-    <div className="relative bg-bg2 bg-cover  overflow-y-hidden lg:pb-[200px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]">
+    <div className="relative bg-bg2 bg-cover  overflow-y-hidden lg:pb-[210px] pb-[90px] text-white w-[100%] flex flex-col justify-center items-center pt-[40px] lg:pt-[50px]">
       <p className="lg:text-[35px] z-[9999] md:top-[700px] md:text-[30px] lg:hidden xl:top-[-90px] lg:top-[870px] top-[430px] flex text-center text-[15px] px-[40px] justify-center w-[1042px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
         {" "}
         Using VR and AI to boost in-store traffic and enhance customer insights
@@ -66,14 +66,14 @@ const Layout2 = () => {
         </span>
       </div>
       {/* second */}{" "}
-      <p className="lg:mt-[60px] mt-[80px] md:mt-[100px] md:w-[200px] w-[165px] lg:w-[235px]">
+      <p className="lg:mt-[20px] mt-[80px] md:mt-[100px] md:w-[200px] w-[165px] lg:w-[235px]">
         <img src={howitworks} alt="" />
       </p>
       <p className="lg:text-[23px] text-[15px]  mt-[15px] font-[200]">
         Reinvent your in-store experience with Astra!{" "}
       </p>
       <div className="">
-        <table className="table-auto z-[1] border-collapse border-[0.5px] overflow-y-auto border-[#FFFFFF26] w-full absolute overflow-hidden md:top-[440px] top-[370px] lg:top-[586px] xl:top-[560px]">
+        <table className="table-auto z-[1] border-collapse border-[0.5px] overflow-y-auto border-[#FFFFFF26] w-full absolute overflow-hidden md:top-[440px] top-[370px] lg:top-[586px] xl:top-[510px]">
           <tr>
             <td className="border border-[#FFFFFF26]  py-10 border-l-transparent"></td>
             <td className="border border-[#FFFFFF26]  py-20 "></td>

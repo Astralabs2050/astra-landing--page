@@ -49,11 +49,11 @@ const Layout = () => {
               className="flex items-end lg:hidden relative md:w-[60px]  w-[40px] lg:pb-0 md:pb-[13px] pb-[3px] overflow-y-hidden"
             />
           </div>
-          <p className="lg:text-[20px] text-[15px] w-[85%] lg:m-0 m-auto text-center pb-[10px] lg:text-start md:text-[25px] md:w-[600px] md:leading-none overflow-y-hidden leading-[20.92px] lg:leading-[31.9px] lg:w-[507px] pt-[20px] lg:pt-[50px] font-[100] font-[{'Clash-Grotesk-Variable'}]">
+          <p className="lg:text-[20px] text-[15px] w-[85%] lg:m-0 m-auto text-center lg:pb-0 pb-[10px] lg:text-start md:text-[25px] md:w-[600px] md:leading-none overflow-y-hidden leading-[20.92px] lg:leading-[31.9px] lg:w-[507px] pt-[20px] lg:pt-[20px] font-[100] font-[{'Clash-Grotesk-Variable'}]">
             Using VR and AI to boost in-store traffic and enhance customer
             insights for store managers.
           </p>
-          <p className="flex lg:flex-row flex-col lg:gap-[20px] gap-[10px] mt-[20px] lg:mt-[50px] text-[10px]  overflow-hidden  lg:text-[20px] lg:font-[200] font-[300]">
+          <p className="flex lg:flex-row flex-col lg:gap-[20px] gap-[10px] mt-[20px] lg:mt-[35px] text-[10px]  overflow-hidden  lg:text-[20px] lg:font-[200] font-[300]">
             <Link to="#joinwaitlist" smooth className="overflow-y-hidden">
               <button className="lg:w-[305px] w-[250px] md:w-[350px] m-auto px-[3px] text-[15px] md:text-[18px] lg:text-[18px] overflow-hidden transition-transform duration-300 hover:scale-110 flex items-center gap-[10px] justify-center lg:h-[54px] md:h-[55px] h-[40px] rounded-[5px] mb-[25px] lg:mb-0  bg-white border-[0.5px] text-black">
                 Launch Your Virtual Store Today <FiArrowRight />

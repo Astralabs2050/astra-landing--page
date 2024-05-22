@@ -49,7 +49,7 @@ const Layout6 = () => {
   };
 
   return (
-    <div className="lg:mt-[150px] mt-[100px]" id="joinwaitlist">
+    <div className="lg:mt-[150px] mt-[60px]" id="joinwaitlist">
       <div className="flex lg:flex-row  flex-col gap-[30px] lg:gap-[150px]  lg:justify-center lg:items-center items-end">
         <div
           data-aos="fade-down"
