@@ -66,7 +66,7 @@ const Layout2 = () => {
         </span>
       </div>
       {/* second */}{" "}
-      <p className="lg:mt-[20px] mt-[80px] md:mt-[100px] md:w-[200px] w-[165px] lg:w-[235px]">
+      <p className="lg:mt-[20px] mt-[80px] md:mt-[100px] md:w-[200px] w-[165px] lg:w-[313px]">
         <img src={howitworks} alt="" />
       </p>
       <p className="lg:text-[23px] text-[15px]  mt-[15px] font-[200]">
@@ -136,7 +136,7 @@ const Layout2 = () => {
           </div>
           <div
             data-aos="fade-right"
-            className="px-[20px] z-20 lg:w-[503px] md:w-[50%] overflow-y-hidden lg:pt-[100px] md:pt-[100px]"
+            className="px-[20px] z-20 lg:w-[503px] md:w-[50%] overflow-y-hidden lg:pt-[110px] md:pt-[100px]"
           >
             <img src={social1} alt="" className="" />
           </div>

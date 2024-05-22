@@ -84,14 +84,14 @@ const Layout4 = () => {
             data-aos="fade-right"
             className="px-[20px] lg:px-0  md:pt-[50px] pt-0 md:w-[75%] lg:w-[506.31px] lg:mt-[60px]"
           >
-            <img src={social11} alt="" className="lg:w-[506.31px] md:w-[100%] " />
+            <img src={social11} alt="" className="lg:w-[506.31px] md:w-[100%] lg:pt-[120px]  " />
           </div>
         </div>
       </div>
 
       {/* as seen */}
 
-      <div className="flex lg:flex-col lg:mt-[50px] lg:mb-[20px] px-[20px] mb-[40px] md:justify-center md:items-center md:gap-[30px] flex-col lg:justify-center lg:items-center lg:gap-[50px]">
+      <div className="flex lg:flex-col lg:mt-[0px] lg:mb-[20px] px-[20px] mb-[40px] md:justify-center md:items-center md:gap-[30px] flex-col lg:justify-center lg:items-center lg:gap-[50px]">
         <p className="lg:w-[292px] w-[193px] font-[400] lg:mt-[0px] mt-[140px] lg:mb-[30px] mb-[50px] justify-center m-auto flex">
           <img src={AsSeenOn} alt="as seen" />
         </p>

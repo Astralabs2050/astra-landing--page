@@ -18,7 +18,7 @@ const Layout = () => {
   }, []);
   return (
     <div className=" bg-bg1 bg-cover">
-      <p className="lg:pb-[40px] lg:pl-[120px] mt-[50px] flex lg:justify-start justify-center">
+      <p className="lg:pb-[40px] lg:pl-[120px] md:pl-[90px] mt-[50px] flex lg:justify-start justify-center">
         <img
           src={ASTRANEW}
           alt=""
@@ -32,7 +32,7 @@ const Layout = () => {
           data-aos="fade-left"
           className=" font-[400] w-[100%] md:flex md:flex-col md:gap-[40px] lg:gap-0 lg:w-[50%]"
         >
-          <div className="flex items-end relative lg:pb-0 md:w-[600px] gap-[8px] lg:m-0 m-auto w-[300px] overflow-y-hidden">
+          <div className="flex items-end relative left-[25px] lg:left-0 lg:pb-0 md:w-[600px] md:m-auto gap-[8px] lg:m-0 m-auto w-[300px] overflow-y-hidden">
             <img
               src={BringyourFashionIdeastoLife}
               alt=""
@@ -41,7 +41,7 @@ const Layout = () => {
             <img
               src={Reinventing}
               alt=""
-              className="lg:hidden md:w-[600px] flex w-[300px] m-auto"
+              className="lg:hidden justify-center md:w-full flex w-[100%] m-auto"
             />
             <img
               src={Glitter}
@@ -64,9 +64,9 @@ const Layout = () => {
 
         <div
           data-aos="fade-right"
-          className="justify-center items-center w-[100%] md:px-[50px] lg:px-0 lg:w-[542.9px]"
+          className="justify-center items-center w-[100%] md:px-[30px] lg:px-0 lg:w-[542.9px]"
         >
-          <img src={FashionDistrictFestival23} alt="" />
+          <img src={FashionDistrictFestival23} alt="" className="w-full" />
         </div>
         <p className="lg:text-[35px] z-[9999] md:top-[700px] md:text-[30px] lg:absolute lg:flex xl:top-[950px] lg:top-[840px] hidden top-[430px] text-center text-[15px] justify-center w-[867px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
           An in-store user experience that combines VR with Web3 and AI with
