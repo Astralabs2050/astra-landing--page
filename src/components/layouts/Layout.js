@@ -19,7 +19,7 @@ const Layout = () => {
   return (
     <div className="bg-bg1 bg-cover flex flex-col items-center justify-center">
       <div className="flex flex-col ">
-      <p className="lg:pb-[40px] lg:px-[100px]  mt-[50px] flex lg:justify-start justify-center">
+      <p className="lg:pb-[40px] lg:px-[50px]  mt-[50px] flex lg:justify-start justify-center">
         <img
           src={ASTRANEW}
           alt=""
@@ -27,7 +27,7 @@ const Layout = () => {
         />
       </p>
       <div
-        className={`flex lg:flex-row flex-col lg:gap-4 gap-[18px] lg:px-[100px] overflow-y-hidden text-white pt-[50px] lg:pt-[100px] justify-between w-[100%] items-center   px-[20px] overflow-auto pb-[50px] lg:pb-[300px]`}
+        className={`flex lg:flex-row flex-col lg:gap-[140px] gap-[18px] lg:px-[50px] overflow-y-hidden text-white pt-[50px] lg:pt-[100px] justify-between w-[100%] items-center   px-[20px] overflow-auto pb-[50px] lg:pb-[300px]`}
       >
         <div
           data-aos="fade-left"
@@ -73,7 +73,7 @@ const Layout = () => {
       </div>
      
     </div>
-    <div className="lg:text-[35px] z-[9999] lg:px-[auto] text-white xl:m-auto xl:text-center md:top-[700px] md:text-[30px] lg:absolute lg:flex xl:top-[950px] lg:top-[840px] hidden top-[430px] text-center justify-center items-center text-[15px] xl:justify-center w-[867px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
+    <div className="lg:text-[35px] z-[9999] lg:px-[auto] text-white xl:m-auto xl:text-center md:top-[700px] md:text-[30px] lg:absolute lg:flex xl:top-[930px] lg:top-[840px] hidden top-[430px] text-center justify-center items-center text-[15px] xl:justify-center w-[867px] font-[{'Clash-Grotesk-Variable':100}] font-[100]">
           An in-store user experience that combines VR with Web3 and AI with
           grants & incubation from:
         </div>
