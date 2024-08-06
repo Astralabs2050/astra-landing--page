@@ -21,7 +21,7 @@ export default function LandingPage() {
   }, []);
 
   if (loading) {
-    return <div className="w-screen h-screen bg-white"></div>;
+    return <div className="w-screen h-screen bg-black"></div>;
   }
 
   return (
