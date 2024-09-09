@@ -3,7 +3,7 @@ import Metalogo from "./Meta logo 1.png";
 import Nvidea from "./Nvidea 1.png";
 import techLogo from "./tech1.png";
 import TechNationLogo from "./colorin.png";
-import awsstartups from "./aws startups 1.png"
+import awsstartups from "./aws startups 1.png";
 import image1 from "./image1.png";
 import image2 from "./image2.png";
 import image3 from "./image3.png";
@@ -13,6 +13,7 @@ import image6 from "./image6.png";
 import image7 from "./image7.png";
 import image8 from "./image8.png";
 import image9 from "./image9.png";
+import brinc from "./Brinc-White-Logo-Footer 1.svg";
 
 import FrameUni from "./FrameUni.png";
 import ASTRANEW from "./ASTRA NEW.png";
@@ -34,4 +35,5 @@ export {
   image7,
   image8,
   image9,
+  brinc,
 };
