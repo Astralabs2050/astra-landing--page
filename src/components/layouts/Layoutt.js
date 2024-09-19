@@ -1,7 +1,16 @@
 import React from "react";
 import { FiArrowRight } from "react-icons/fi";
 import { HashLink as Link } from "react-router-hash-link";
-import { card2, card3, FashionDistrictFestival23, one } from "../../asset";
+import {
+  card2,
+  card3,
+  FashionDistrictFestival23,
+  one,
+  smallcard1,
+  smallcard2,
+  smallcard3,
+  smallframe2,
+} from "../../asset";
 import { ASTRANEW, brinc } from "../../asset/logo";
 import {
   brand,
@@ -76,8 +85,8 @@ const Layoutt = () => {
         <div className="lg:flex hidden">
           <img src={FashionDistrictFestival23} alt="" className="" />
         </div>
-        <div className="lg:hidden flex w-full mt-[45px] justify-center m-auto">
-          <img src={FashionDistrictFestival23} alt="" className="" />
+        <div className="lg:hidden flex w-full mt-[45px] relative right-[20px] px-0 justify-center m-auto">
+          <img src={smallframe2} alt="" className="" />
         </div>
       </div>
       <div className="lg:mt-[120px] mt-[60px]">
@@ -132,8 +141,8 @@ const Layoutt = () => {
       <p className="flex justify-center lg:mt-0 mt-[50px]">
         <img src={howitworks} alt="" className="w-[206.57px] lg:w-[391.08px]" />
       </p>
-      <div className="flex lg:flex-row flex-col justify-center items-center gap-[20px] mt-[80px]">
-        <div className="flex items-center relative ">
+      <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-[20px] gap-[60px] mt-[80px]">
+        <div className="lg:flex items-center relative hidden ">
           <img
             src={brand}
             alt=""
@@ -143,11 +152,23 @@ const Layoutt = () => {
 
           <img src={card1} alt="" className="w-[402.3px] h-[442.64px]" />
         </div>
-        <div className=" relative top-[-13px]">
+        {/* mobile1 */}
+        <div className="lg:hidden flex">
+          <img src={smallcard1} alt="" />
+        </div>
+        <div className=" relative top-[-13px] lg:flex hidden">
           <img src={card2} alt="" className=" w-[425.16px] h-[442.64px]" />
         </div>
-        <div>
+        {/* mobile2 */}
+        <div className="lg:hidden flex">
+          <img src={smallcard2} alt="" />
+        </div>
+        <div className="lg:flex hidden">
           <img src={card3} alt="" className="w-[381.62px] h-[442.64px]" />
+        </div>
+        {/* mobile3 */}
+        <div className="lg:hidden flex">
+          <img src={smallcard3} alt="" />
         </div>
       </div>
       <Layout22 />
