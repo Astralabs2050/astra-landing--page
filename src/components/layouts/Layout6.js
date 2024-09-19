@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Glitter, Frame4 } from "../../asset";
-import { joinwaitlist, joinwaitlist2 } from "../../asset/textImg";
+import { joinwaitlist} from "../../asset/textImg";
 import { useForm } from "@formspree/react";
 import { location } from "./countries";
 
@@ -124,7 +124,7 @@ const Layout6 = () => {
             </p>
           )}
         </div>
-        <div className="flex self-end">
+        <div className="flex lg:self-end md:m-auto lg:m-0 m-auto">
           <img src={Frame4} alt="" className="lg:w-[590.9px] px-[20px]" />
         </div>
       </div>

@@ -17,8 +17,8 @@ import card1 from "./card1.svg";
 import card2 from "./card2.svg";
 import card3 from "./card3.svg";
 import smallcard1 from "./smallcard1.svg";
-import smallcard2 from "./smallcard2.svg";
-import smallcard3 from "./smallcard3.svg";
+import smallcard2 from "./smallcard22.svg";
+import smallcard3 from "./smallcard33.svg";
 import smallframe2 from "./smallframe2.svg";
 import qrcode from "./QR-CODE 1.svg";
 

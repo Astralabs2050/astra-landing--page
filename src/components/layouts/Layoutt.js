@@ -68,11 +68,11 @@ const Layoutt = () => {
             <img
               src={Glitter}
               alt=""
-              className="lg:w-[63.88px] w-[39px] h-[37.78px] lg:h-[61px] absolute bottom-[-5px] lg:left-[210px] left-[260px]"
+              className="lg:w-[63.88px] w-[39px] h-[37.78px] lg:h-[61px] absolute bottom-[-5px] md:left-[380px] lg:left-[210px] left-[260px]"
             />
           </div>
 
-          <p className="w-[438px] text-[20px] font-[200] flex lg:text-left text-center text-[#F8F8F8]">
+          <p className="w-[438px] text-[20px] font-[200] md:m-auto lg:m-0 flex lg:text-start text-center text-[#F8F8F8]">
             Generate unique designs using AI, and find talent near you to bring
             it to life!{" "}
           </p>
@@ -141,7 +141,7 @@ const Layoutt = () => {
       <p className="flex justify-center lg:mt-0 mt-[50px]">
         <img src={howitworks} alt="" className="w-[206.57px] lg:w-[391.08px]" />
       </p>
-      <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-[20px] gap-[60px] mt-[80px]">
+      <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-[20px] gap-[60px] pt-[50px] lg:pt-[80px]">
         <div className="lg:flex items-center relative hidden ">
           <img
             src={brand}
