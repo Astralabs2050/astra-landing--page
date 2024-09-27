@@ -85,7 +85,7 @@ const Layoutt = () => {
         <div className="lg:flex hidden">
           <img src={FashionDistrictFestival23} alt="" className="" />
         </div>
-        <div className="lg:hidden flex w-full mt-[45px] relative right-[20px] px-0 justify-center m-auto">
+        <div className="lg:hidden flex w-full mt-[45px] items-end justify-end px-0  ">
           <img src={smallframe2} alt="" className="" />
         </div>
       </div>

@@ -13,7 +13,7 @@ const Layout7 = () => {
   }, []);
   return (
     <div
-      className={`pt-[100px] lg:pb-[150px] pb-[80px]  flex flex-col justify-center items-center text-white bg-bg2 bg-cover z-[-1]`}
+      className={`pt-[100px] lg:pb-[150px] pb-[80px] hidden  lg:flex flex-col justify-center items-center text-white lg:bg-bg2 bg-cover z-[-1]`}
     >
       <div
         data-aos="fade-left"
