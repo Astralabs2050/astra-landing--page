@@ -19,13 +19,10 @@ const FAQs = () => {
   return (
     <>
       <div className="lg:bg-bg11 lg:bg-cover lg:z-20">
-     
-        
-          <div className="flex flex-col m-auto relative justify-center items-center pt-[170px]">
-            <img src={line} alt="" className="absolute top-[125px]"/>
-            <img src={faq} alt="" className="flex  m-auto  " />
-          </div>
-     
+        <div className="flex flex-col m-auto relative justify-center items-center pt-[170px]">
+          <img src={line} alt="" className="absolute top-[125px]" />
+          <img src={faq} alt="" className="flex  m-auto  " />
+        </div>
 
         <div className="flex px-[40px] flex-col lg:flex-row text-[#A1A1A1] justify-center items-center gap-[100px] py-[100px]">
           <div className="flex flex-col items-center gap-[30px]">

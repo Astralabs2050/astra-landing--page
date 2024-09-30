@@ -37,7 +37,7 @@ const Layout8 = () => {
   };
 
   return (
-    <div className="bg-[#00000099] relative w-[100%] bottom-0">
+    <div className="bg-[#000000c5]  relative w-[100%] bottom-0">
       <div
         
         className="bg-black w-[100%] inset-0 bg-opacity-60 text-white flex lg:flex-row flex-col lg:justify-evenly gap-[50px] lg:items-center px-[20px] lg:h-[267px] py-[40px]"
@@ -90,7 +90,7 @@ const Layout8 = () => {
           <p>&copy; 2024 Astra.</p>
         </div>
         <div
-          className={`fixed lg:bottom-[250px] bottom-[430px] right-3 lg:z-[9999] lg:right-[100px] flex flex-col items-center gap-[5px] text-[#858585] ${
+          className={`fixed lg:bottom-[250px] z-10 bottom-[430px] right-3 lg:z-[9999] lg:right-[100px] flex flex-col items-center gap-[5px] text-[#858585] ${
             showButton ? "block" : "hidden"
           }`}
         >
