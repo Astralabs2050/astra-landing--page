@@ -17,10 +17,11 @@ const FAQs = () => {
 
   return (
     <>
-      <div className="lg:bg-bg11 lg:bg-cover z-20">
+      <div className="lg:bg-bg11 lg:bg-cover lg:z-20">
         <img src={faq} alt="" className="flex m-auto mt-[170px]" />
         <div className="flex px-[40px] flex-col lg:flex-row text-[#A1A1A1] justify-center items-center gap-[100px] py-[100px]">
           <div className="flex flex-col items-center gap-[30px]">
+            {/* button 1 */}
             <button
               onClick={() => toggleQuestion(1)}
               className="w-[448px] h-[46px] border-[#D9D9D91A] bg-customGray overflow-y-hidden rounded-[5px] border flex justify-between items-center px-[30px]"
@@ -28,6 +29,13 @@ const FAQs = () => {
               Who owns the design created?{" "}
               {activeQuestion === 1 ? <FaAngleDown /> : <FaAngleRight />}
             </button>
+            {/* answer1 */}
+            {activeQuestion === 1 && (
+              <div className="w-[608px] border-[#D9D9D91A] bg-customGray h-[200px] p-[10px] border flex lg:hidden rounded-[10px]">
+                {activeQuestion === 1 && <Answer1 />}
+              </div>
+            )}
+            {/* button2 */}
             <button
               onClick={() => toggleQuestion(2)}
               className="w-[448px] h-[46px] bg-customGray border-[#D9D9D91A]  overflow-y-hidden rounded-[5px] border flex justify-between items-center px-[30px]"
@@ -35,6 +43,13 @@ const FAQs = () => {
               Do you vet partners selected?{" "}
               {activeQuestion === 2 ? <FaAngleDown /> : <FaAngleRight />}
             </button>
+            {/* answer2 */}
+            {activeQuestion === 2 && (
+              <div className="w-[608px] border-[#D9D9D91A] bg-customGray h-[200px] flex lg:hidden p-[10px] border rounded-[10px]">
+                {activeQuestion === 2 && <Answer2 />}
+              </div>
+            )}
+            {/* button3 */}
             <button
               onClick={() => toggleQuestion(3)}
               className="w-[448px] h-[46px] bg-customGray border-[#D9D9D91A]  overflow-y-hidden rounded-[5px] border flex justify-between items-center px-[30px]"
@@ -42,9 +57,15 @@ const FAQs = () => {
               What blockchain is this built on?{" "}
               {activeQuestion === 3 ? <FaAngleDown /> : <FaAngleRight />}
             </button>
+            {/* answer3 */}
+            {activeQuestion === 3 && (
+              <div className="w-[608px] border-[#D9D9D91A] bg-customGray h-[200px] flex lg:hidden p-[10px] border rounded-[10px]">
+                {activeQuestion === 3 && <Answer3 />}
+              </div>
+            )}
           </div>
 
-          <div className="w-[608px] border-[#D9D9D91A] bg-customGray h-[200px] p-[10px] border rounded-[10px]">
+          <div className="w-[608px] border-[#D9D9D91A] bg-customGray h-[200px] hidden lg:flex p-[10px] border rounded-[10px]">
             {activeQuestion === 1 && <Answer1 />}
             {activeQuestion === 2 && <Answer2 />}
             {activeQuestion === 3 && <Answer3 />}

@@ -5,7 +5,7 @@ import { enquires } from "../../asset/textImg";
 
 const LayoutCode = () => {
   return (
-    <div className="bg-bg1 bg-black bg-fixed bg-cover relative  flex lg:flex-row flex-col lg:justify-evenly lg:gap-0 gap-[30px] items-center py-[100px] text-white">
+    <div className="bg-bg1 bg-black bg-fixed bg-cover relative lg:pt-[200px] flex lg:flex-row flex-col lg:justify-evenly lg:gap-0 gap-[30px] items-center py-[100px] text-white">
       <div className="">
         {" "}
         {/* Added z-10 to bring form forward */}
@@ -39,7 +39,7 @@ const LayoutCode = () => {
         <img
           src={Glitter}
           alt=""
-          className="absolute left-[710px] top-[63px] lg:flex hidden z-[5]"
+          className="absolute left-[710px] top-[156px] lg:flex hidden z-[5]"
         />
         <div className="lg:w-[547.82px] rounded-[10px] w-full py-[60px] lg:h-[713.46px] flex gap-[45px] flex-col justify-center items-center bg-[#121212]">
           <img src={qrcode} alt="" className="w-[207.91px] lg:w-[340px]" />
