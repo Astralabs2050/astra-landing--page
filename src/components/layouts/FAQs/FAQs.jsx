@@ -76,7 +76,7 @@ const FAQs = () => {
       {/* mobile for pitch deck */}
 
       <div
-        className={`pt-[100px] lg:pb-[150px] pb-[80px] lg:hidden  flex flex-col justify-center items-center text-white  z-[-1]`}
+        className={`pt-[30px]  pb-[50px] lg:hidden  flex flex-col justify-center items-center text-white  z-[-1]`}
       >
         <div
           data-aos="fade-left"
