@@ -20,11 +20,11 @@ const LayoutCode = () => {
           <input
             placeholder="example@gmail.com"
             type="text"
-            className="border px-[10px] text-[12.03px] outline-none mb-[15px] w-full h-[37.01px] rounded-[5px] bg-[#D9D9D91A] text-white"
+            className=" px-[10px] text-[12.03px] outline-none mb-[15px] w-full h-[37.01px] rounded-[5px] bg-[#D9D9D91A] text-white"
           />
           <br />
           <textarea
-            className="border p-[10px] text-[#A1A1A1] text-[12.03px] outline-none bg-[#D9D9D91A] w-full h-[166.57px] mb-[20px] rounded-[5px] "
+            className=" p-[10px] text-[#A1A1A1] text-[12.03px] outline-none bg-[#D9D9D91A] w-full h-[166.57px] mb-[20px] rounded-[5px] "
             placeholder="Write your message"
           />
           <button className="w-full outline-none flex justify-center items-center text-black h-[37px] bg-[#F5F9FC] rounded-[5px]">

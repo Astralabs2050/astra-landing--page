@@ -32,7 +32,7 @@ const Layout6 = () => {
   };
 
   return (
-    <div className="lg:mt-[150px] mt-[100px]" id="joinwaitlist">
+    <div className="lg:pt-[150px] pt-[100px] lg:bg-bg10 lg:bg-cover" id="joinwaitlist">
       <div className="flex lg:flex-row flex-col gap-[30px] lg:gap-[150px] lg:justify-center lg:items-center items-end">
         <div className="flex flex-col gap-[40px] px-[20px] w-[100%] lg:w-[461px]">
           <img

@@ -9,7 +9,7 @@ const images = [row1, row2, row3, row4, row1, row2, row3, row1];
 
 const Layout22 = () => {
   return (
-    <div className="lg:mt-[90px] mt-[70px]">
+    <div className="lg:mt-[90px] mt-[70px] lg:bg-bg12 lg:bg-cover z-10">
       <img src={Joinmaker} alt="Join as partner" className="flex  m-auto  w-[306.57px] lg:w-[491.08px]" />
       <p className="font-[100] flex text-center justify-center lg:px-0 px-[28px] lg:text-[25px] text-[15px] mt-[20px]">
         Join Astra as a maker and earn money making clothes for people all over
@@ -21,7 +21,7 @@ const Layout22 = () => {
         </button>
       </Link>
       <div className=" lg:w-[95%] w-full lg:pl-[150px] px-[10px] justify-end items-end flex ">
-        <div className="flex gap-[30px]  overflow-x-auto">
+        <div className="flex gap-[30px] overflow-x-auto">
           {images.map((image, index) => (
             <img
               key={index}

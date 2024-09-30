@@ -16,6 +16,8 @@ module.exports = {
         'bg8': "url('../src/asset/Grunge.svg')",
         'bg9': "url('../src/asset/Grunge2.svg')",
         'bg10': "url('../src/asset/Blur-Theme.svg')",
+        'bg11': "url('../src/asset/Blur-Theme2.svg')",
+        'bg12': "url('../src/asset/Blur-Theme3.svg')",
         'rectangle': "url('../src/asset/Rectangle 24022.svg')",
 
       },

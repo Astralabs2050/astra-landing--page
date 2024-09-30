@@ -38,7 +38,7 @@ import FAQs from "./FAQs/FAQs";
 const Layoutt = () => {
   return (
     <div className="bg-bg1 bg-black bg-cover bg-fixed  text-white">
-      <div className="flex  justify-between pt-[30px] px-[7%]">
+      <div className="flex justify-between pt-[30px] px-[7%]">
         {" "}
         <img
           src={ASTRANEW}
@@ -50,7 +50,7 @@ const Layoutt = () => {
         </button>
       </div>
 
-      <div className="flex px-[20px]  lg:pl-[7%] lg:mt-[120px] mt-[70px] flex-col lg:flex-row justify-center items-center lg:justify-between">
+      <div className="flex lg:px-[20px] lg:pl-[7%] lg:mt-[100px] mt-[70px] flex-col lg:flex-row justify-center items-center lg:justify-between">
         <div className="flex flex-col lg:gap-[40px] gap-[30px] w-[635px] ">
           <div className="flex relative overflow-y-hidden">
             <img
@@ -68,11 +68,11 @@ const Layoutt = () => {
             <img
               src={Glitter}
               alt=""
-              className="lg:w-[63.88px] w-[39px] h-[37.78px] lg:h-[61px] absolute bottom-[-5px] md:left-[380px] lg:left-[210px] left-[260px]"
+              className="lg:w-[63.88px] w-[39px] h-[37.78px] lg:h-[61px] absolute bottom-[-3px] md:left-[380px] lg:left-[235px] left-[280px]"
             />
           </div>
 
-          <p className="w-[438px] text-[20px] font-[200] md:m-auto lg:m-0 flex lg:text-start text-center text-[#F8F8F8]">
+          <p className="w-[438px] text-[20px] font-[200] md:m-auto lg:m-0 flex lg:text-start lg:px-0 px-[35px] text-center text-[#F8F8F8]">
             Generate unique designs using AI, and find talent near you to bring
             it to life!{" "}
           </p>
@@ -82,10 +82,10 @@ const Layoutt = () => {
             </button>
           </Link>
         </div>
-        <div className="lg:flex hidden">
+        <div className="lg:flex md:flex hidden md:mt-12">
           <img src={FashionDistrictFestival23} alt="" className="" />
         </div>
-        <div className="lg:hidden flex w-full mt-[45px] items-end justify-end px-0  ">
+        <div className="lg:hidden md:hidden flex w-full mt-[45px] items-end justify-end px-0  ">
           <img src={smallframe2} alt="" className="" />
         </div>
       </div>

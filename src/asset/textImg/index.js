@@ -1,6 +1,6 @@
 import AsSeenOn from "./As Seen On.png";
-import BringyourFashionIdeastoLife from "./A New Way To Create and Sell Fashion Before It Exists.svg";
-import BringyourFashionIdeastoLife2 from "./A New Way To Create and Sell Fashion Before It Exists 2.svg";
+import BringyourFashionIdeastoLife from "./The Fashion Factory of The Future2.svg";
+import BringyourFashionIdeastoLife2 from "./The Fashion Factory of The Future.svg";
 import CreateAjob from "./Reward users with tokens that unlock more experiences3.png";
 import howitworks from "./how astra works.svg";
 import JoinAsPartner from "./Join as a Partner.png";
