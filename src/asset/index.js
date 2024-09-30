@@ -21,6 +21,7 @@ import smallcard2 from "./smallcard22.svg";
 import smallcard3 from "./smallcard33.svg";
 import smallframe2 from "./smallframe2.svg";
 import qrcode from "./QR-CODE 1.svg";
+import line from "./line.svg";
 
 export {
   one,
@@ -46,4 +47,5 @@ export {
   smallcard2,
   smallcard3,
   smallframe2,
+  line,
 };

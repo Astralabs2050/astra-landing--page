@@ -5,6 +5,7 @@ import Answer2 from "./Answer2";
 import Answer3 from "./Answer3";
 import { faq, pitchdeck } from "../../../asset/textImg";
 import { FiArrowRight } from "react-icons/fi";
+import { line } from "../../../asset";
 
 const FAQs = () => {
   const [activeQuestion, setActiveQuestion] = useState(null);
@@ -18,7 +19,14 @@ const FAQs = () => {
   return (
     <>
       <div className="lg:bg-bg11 lg:bg-cover lg:z-20">
-        <img src={faq} alt="" className="flex m-auto mt-[170px]" />
+     
+        
+          <div className="flex flex-col m-auto relative justify-center items-center pt-[170px]">
+            <img src={line} alt="" className="absolute top-[125px]"/>
+            <img src={faq} alt="" className="flex  m-auto  " />
+          </div>
+     
+
         <div className="flex px-[40px] flex-col lg:flex-row text-[#A1A1A1] justify-center items-center gap-[100px] py-[100px]">
           <div className="flex flex-col items-center gap-[30px]">
             {/* button 1 */}

@@ -37,7 +37,7 @@ const Layout8 = () => {
   };
 
   return (
-    <div className="bg-black relative w-[100%] bottom-0">
+    <div className="bg-[#00000099] relative w-[100%] bottom-0">
       <div
         
         className="bg-black w-[100%] inset-0 bg-opacity-60 text-white flex lg:flex-row flex-col lg:justify-evenly gap-[50px] lg:items-center px-[20px] lg:h-[267px] py-[40px]"
